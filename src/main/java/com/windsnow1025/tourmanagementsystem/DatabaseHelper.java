@@ -6,10 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public abstract class DatabaseHelper {
     protected static final Logger logger = LoggerFactory.getLogger(DatabaseHelper.class);
@@ -84,13 +81,10 @@ public abstract class DatabaseHelper {
 
     protected void createMetadata() throws SQLException {
         final String CREATE_METADATA = """
-        IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'metadata')
-        BEGIN
-            CREATE TABLE metadata (
-                version VARCHAR(255)
-            )
-        END
-        """;
+                CREATE TABLE IF NOT EXISTS metadata (
+                    version VARCHAR(255)
+                );
+                """;
         try (Statement statement = getConnection().createStatement()) {
             statement.executeUpdate(CREATE_METADATA);
         }

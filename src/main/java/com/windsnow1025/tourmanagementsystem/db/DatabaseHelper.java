@@ -1,4 +1,4 @@
-package com.windsnow1025.tourmanagementsystem;
+package com.windsnow1025.tourmanagementsystem.db;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

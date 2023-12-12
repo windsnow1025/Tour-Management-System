@@ -1,13 +1,14 @@
 package com.windsnow1025.tourmanagementsystem;
 
+import com.windsnow1025.tourmanagementsystem.db.JDBCHelper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TourManagementSystemApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(TourManagementSystemApplication.class, args);
+        SpringApplication.run(Application.class, args);
         JDBCHelper jdbcHelper = new JDBCHelper();
     }
 }

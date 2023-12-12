@@ -1,9 +1,8 @@
-package com.windsnow1025.tourmanagementsystem;
+package com.windsnow1025.tourmanagementsystem.db;
 
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.sql.*;
 
 public class JDBCHelper extends DatabaseHelper {
@@ -162,7 +161,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.0";
+            dbVersion = "1.1";
         } catch (IOException e) {
             logger.error("Database config failed", e);
         }

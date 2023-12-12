@@ -49,6 +49,7 @@ CREATE TABLE 导游员工
 CREATE TABLE 旅游团
 (
     id INT NOT NULL IDENTITY,
+    PRIMARY KEY (id)
 )
 
 CREATE TABLE 顾客
@@ -59,6 +60,13 @@ CREATE TABLE 顾客
     PRIMARY KEY (身份证号),
     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
+)
+
+CREATE TABLE 旅游线路
+(
+    id        INT NOT NULL IDENTITY,
+    总公司_id INT NOT NULL,
+    PRIMARY KEY (id)
 )
 
 CREATE TABLE 旅游信息
@@ -77,13 +85,6 @@ CREATE TABLE 旅游信息
     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
     FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-)
-
-CREATE TABLE 旅游线路
-(
-    id        INT NOT NULL IDENTITY,
-    总公司_id INT NOT NULL,
-    PRIMARY KEY (id)
 )
 
 CREATE TABLE 地点

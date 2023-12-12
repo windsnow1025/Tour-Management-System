@@ -1,5 +1,9 @@
 package com.windsnow1025.tourmanagementsystem;
 
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 
 public class JDBCHelper extends DatabaseHelper {
@@ -9,7 +13,7 @@ public class JDBCHelper extends DatabaseHelper {
                     id INT NOT NULL AUTO_INCREMENT,
                     总公司名 VARCHAR(255) NOT NULL,
                     PRIMARY KEY (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_旅游分公司 = """
@@ -20,7 +24,7 @@ public class JDBCHelper extends DatabaseHelper {
                     总公司_id INT          NOT NULL,
                     PRIMARY KEY (id),
                     FOREIGN KEY (总公司_id) REFERENCES 总公司 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_身份信息 = """
@@ -31,7 +35,7 @@ public class JDBCHelper extends DatabaseHelper {
                     工作单位 VARCHAR(255),
                     职业     VARCHAR(255),
                     PRIMARY KEY (身份证号)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_经理 = """
@@ -43,7 +47,7 @@ public class JDBCHelper extends DatabaseHelper {
                     PRIMARY KEY (经理号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
-                )=
+                );
             """;
 
     private static final String CREATE_TABLE_导游员工 = """
@@ -58,7 +62,7 @@ public class JDBCHelper extends DatabaseHelper {
                     PRIMARY KEY (导游号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_旅游团 = """
@@ -66,7 +70,7 @@ public class JDBCHelper extends DatabaseHelper {
                 (
                     id INT NOT NULL AUTO_INCREMENT,
                     PRIMARY KEY (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_顾客 = """
@@ -78,7 +82,7 @@ public class JDBCHelper extends DatabaseHelper {
                     PRIMARY KEY (身份证号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_旅游信息 = """
@@ -98,7 +102,7 @@ public class JDBCHelper extends DatabaseHelper {
                     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
                     FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_旅游线路 = """
@@ -107,7 +111,7 @@ public class JDBCHelper extends DatabaseHelper {
                     id        INT NOT NULL AUTO_INCREMENT,
                     总公司_id INT NOT NULL,
                     PRIMARY KEY (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_地点 = """
@@ -117,7 +121,7 @@ public class JDBCHelper extends DatabaseHelper {
                     旅游线路_id INT          NOT NULL,
                     PRIMARY KEY (地点, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_景点 = """
@@ -127,7 +131,7 @@ public class JDBCHelper extends DatabaseHelper {
                     旅游线路_id INT          NOT NULL,
                     PRIMARY KEY (景点, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                )
+                );
             """;
 
     private static final String CREATE_TABLE_旅游时间段 = """
@@ -141,7 +145,7 @@ public class JDBCHelper extends DatabaseHelper {
                     旅游线路_id INT          NOT NULL,
                     PRIMARY KEY (旅游时间段, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                )
+                );
             """;
 
 
@@ -151,10 +155,17 @@ public class JDBCHelper extends DatabaseHelper {
 
     @Override
     protected void setDatabaseConfig() {
-        dbUrl = "jdbc:mysql://localhost:3306/tour";
-        dbUsername = "tour_user";
-        dbPassword = "tour_password";
-        dbDriverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+        try (InputStream inputStream = JDBCHelper.class.getClassLoader().getResourceAsStream("config.json")) {
+            String text = new String(inputStream.readAllBytes());
+            JSONObject jsonObject = new JSONObject(text);
+            dbUrl = jsonObject.getString("database_url");
+            dbUsername = jsonObject.getString("database_username");
+            dbPassword = jsonObject.getString("database_password");
+            dbDriverClassName = "com.mysql.cj.jdbc.Driver";
+            dbVersion = "1.0";
+        } catch (IOException e) {
+            logger.error("Database config failed", e);
+        }
     }
 
     @Override

@@ -186,9 +186,9 @@ public class JDBCHelper extends DatabaseHelper{
     }
     @Override
     protected void setDatabaseConfig() {
-        dbUrl = "jdbc:sqlserver://localhost:1433;databaseName=sql课内实验";
-        dbUsername = "fx";
-        dbPassword = "fx";
+        dbUrl = "jdbc:sqlserver://localhost:1433;databaseName=tour";
+        dbUsername = "user";
+        dbPassword = "password";
         dbDriverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     }
     @Override

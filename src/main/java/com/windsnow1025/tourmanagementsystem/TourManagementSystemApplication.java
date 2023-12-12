@@ -8,6 +8,6 @@ public class TourManagementSystemApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TourManagementSystemApplication.class, args);
+        JDBCHelper jdbcHelper = new JDBCHelper();
     }
-    JDBCHelper jdbcHelper = new JDBCHelper();
 }

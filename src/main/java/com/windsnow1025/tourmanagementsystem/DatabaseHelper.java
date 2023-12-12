@@ -84,10 +84,13 @@ public abstract class DatabaseHelper {
 
     protected void createMetadata() throws SQLException {
         final String CREATE_METADATA = """
-                CREATE TABLE IF NOT EXISTS metadata (
-                    version VARCHAR(255)
-                );
-                """;
+        IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'metadata')
+        BEGIN
+            CREATE TABLE metadata (
+                version VARCHAR(255)
+            )
+        END
+        """;
         try (Statement statement = getConnection().createStatement()) {
             statement.executeUpdate(CREATE_METADATA);
         }

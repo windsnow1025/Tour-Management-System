@@ -1,13 +1,13 @@
 CREATE TABLE 总公司
 (
-    id       INT          NOT NULL AUTO_INCREMENT,
+    id       INT          NOT NULL IDENTITY,
     总公司名 VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 )
 
 CREATE TABLE 旅游分公司
 (
-    id        INT          NOT NULL AUTO_INCREMENT,
+    id        INT          NOT NULL IDENTITY,
     分公司名  VARCHAR(255) NOT NULL,
     总公司_id INT          NOT NULL,
     PRIMARY KEY (id),
@@ -16,17 +16,17 @@ CREATE TABLE 旅游分公司
 
 CREATE TABLE 经理
 (
-    经理号    INT          NOT NULL AUTO_INCREMENT,
+    经理号    INT          NOT NULL IDENTITY,
     身份证号  VARCHAR(255) NOT NULL,
     姓名      VARCHAR(255) NOT NULL,
     分公司_id INT          NOT NULL,
     PRIMARY KEY (经理号),
-    FOREIGN KEY (分公司_id) REFERENCES 分公司 (id)
+    FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
 )
 
 CREATE TABLE 导游员工
 (
-    导游号       INT          NOT NULL AUTO_INCREMENT,
+    导游号       INT          NOT NULL IDENTITY,
     身份证号     VARCHAR(255) NOT NULL,
     姓名         VARCHAR(255) NOT NULL,
     导游资格等级 VARCHAR(255) NOT NULL,
@@ -34,12 +34,12 @@ CREATE TABLE 导游员工
     分公司_id    INT          NOT NULL,
     旅游团_id    INT          NOT NULL,
     PRIMARY KEY (导游号),
-    FOREIGN KEY (分公司_id) REFERENCES 分公司 (id)
+    FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
 )
 
 CREATE TABLE 旅游团
 (
-    id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL IDENTITY,
 )
 
 CREATE TABLE 顾客
@@ -50,19 +50,19 @@ CREATE TABLE 顾客
     职业      VARCHAR(255) NOT NULL,
     消费金额  FLOAT        NOT NULL,
     旅游团_id INT          NOT NULL,
-    PRIMARY KEY (身份证号)
-        FOREIGN KEY (旅游团_id) REFERENCES 旅游团(id)
+    PRIMARY KEY (身份证号),
+    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
 )
 
 CREATE TABLE 旅游信息
 (
-    id            INT          NOT NULL AUTO_INCREMENT,
+    id            INT          NOT NULL IDENTITY,
     旅游时间      VARCHAR(255) NOT NULL,
     旅游线路      VARCHAR(255) NOT NULL,
     旅游费用      FLOAT        NOT NULL,
     保险          VARCHAR(255) NOT NULL,
     服务等级      VARCHAR(255) NOT NULL,
-    旅游合同      BLOB         NOT NULL,
+    旅游合同      VARBINARY( MAX) NOT NULL,
     旅游团_id     INT          NOT NULL,
     顾客_身份证号 VARCHAR(255) NOT NULL,
     旅游线路_id   INT          NOT NULL,
@@ -74,7 +74,7 @@ CREATE TABLE 旅游信息
 
 CREATE TABLE 旅游线路
 (
-    id        INT NOT NULL AUTO_INCREMENT,
+    id        INT NOT NULL IDENTITY,
     总公司_id INT NOT NULL,
     PRIMARY KEY (id)
 )

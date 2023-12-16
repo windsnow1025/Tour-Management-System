@@ -98,7 +98,6 @@ public class JDBCHelper extends DatabaseHelper {
                 (
                     id INT NOT NULL AUTO_INCREMENT,
                     旅游时间 VARCHAR(255) NOT NULL,
-                    旅游线路 VARCHAR(255) NOT NULL,
                     旅游费用 FLOAT NOT NULL,
                     保险 VARCHAR(255) NOT NULL,
                     服务等级 VARCHAR(255) NOT NULL,
@@ -161,7 +160,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.1.1";
+            dbVersion = "1.1.2";
         } catch (IOException e) {
             logger.error("Database config failed", e);
         }

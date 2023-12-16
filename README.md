@@ -1,0 +1,11 @@
+# Tour Management System
+
+## Configuration
+
+```json
+{
+    "database_url": "jdbc:mysql://localhost:3307/tour",
+    "database_username": "root",
+    "database_password": "learn_mysql_password"
+}
+```

@@ -42,8 +42,7 @@ FROM 旅游线路
 CREATE VIEW 分公司业绩视图 AS
 SELECT 旅游分公司.id          AS 分公司ID,
        旅游分公司.分公司名,
-       SUM(旅游信息.旅游费用) AS 总销售额
+       SUM(导游员工.业绩金额) AS 分公司销售额
 FROM 旅游分公司
          JOIN 导游员工 ON 旅游分公司.id = 导游员工.分公司_id
-         JOIN 旅游信息 ON 导游员工.旅游团_id = 旅游信息.旅游团_id
 GROUP BY 旅游分公司.id, 旅游分公司.分公司名;

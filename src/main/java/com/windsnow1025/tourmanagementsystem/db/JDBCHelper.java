@@ -192,34 +192,21 @@ public class JDBCHelper extends DatabaseHelper {
     public void onUpgrade() throws SQLException {
         try (Statement statement = getConnection().createStatement()) {
             // Drop all
-            statement.executeUpdate("DROP TABLE IF EXISTS 总公司");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游分公司");
-            statement.executeUpdate("DROP TABLE IF EXISTS 身份信息");
-            statement.executeUpdate("DROP TABLE IF EXISTS 经理");
-            statement.executeUpdate("DROP TABLE IF EXISTS 导游员工");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
-            statement.executeUpdate("DROP TABLE IF EXISTS 顾客");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
+            statement.executeUpdate("DROP TABLE IF EXISTS 景点");
+            statement.executeUpdate("DROP TABLE IF EXISTS 地点");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路");
-            statement.executeUpdate("DROP TABLE IF EXISTS 地点");
-            statement.executeUpdate("DROP TABLE IF EXISTS 景点");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
-
-            // Create all
-            statement.executeUpdate(CREATE_TABLE_总公司);
-            statement.executeUpdate(CREATE_TABLE_旅游分公司);
-            statement.executeUpdate(CREATE_TABLE_身份信息);
-            statement.executeUpdate(CREATE_TABLE_经理);
-            statement.executeUpdate(CREATE_TABLE_导游员工);
-            statement.executeUpdate(CREATE_TABLE_旅游团);
-            statement.executeUpdate(CREATE_TABLE_顾客);
-            statement.executeUpdate(CREATE_TABLE_旅游信息);
-            statement.executeUpdate(CREATE_TABLE_旅游线路);
-            statement.executeUpdate(CREATE_TABLE_地点);
-            statement.executeUpdate(CREATE_TABLE_景点);
-            statement.executeUpdate(CREATE_TABLE_旅游时间段);
+            statement.executeUpdate("DROP TABLE IF EXISTS 顾客");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
+            statement.executeUpdate("DROP TABLE IF EXISTS 导游员工");
+            statement.executeUpdate("DROP TABLE IF EXISTS 经理");
+            statement.executeUpdate("DROP TABLE IF EXISTS 身份信息");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游分公司");
+            statement.executeUpdate("DROP TABLE IF EXISTS 总公司");
         }
 
+        onCreate();
         updateVersion();
         logger.info("Database upgraded");
     }

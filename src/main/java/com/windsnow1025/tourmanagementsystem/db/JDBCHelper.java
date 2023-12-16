@@ -18,9 +18,9 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_旅游分公司 = """
                 CREATE TABLE IF NOT EXISTS 旅游分公司
                 (
-                    id        INT          NOT NULL AUTO_INCREMENT,
-                    分公司名  VARCHAR(255) NOT NULL,
-                    总公司_id INT          NOT NULL,
+                    id INT NOT NULL AUTO_INCREMENT,
+                    分公司名 VARCHAR(255) NOT NULL,
+                    总公司_id INT NOT NULL,
                     PRIMARY KEY (id),
                     FOREIGN KEY (总公司_id) REFERENCES 总公司 (id)
                 );
@@ -30,9 +30,9 @@ public class JDBCHelper extends DatabaseHelper {
                 CREATE TABLE IF NOT EXISTS 身份信息
                 (
                     身份证号 VARCHAR(255) NOT NULL,
-                    姓名     VARCHAR(255) NOT NULL,
+                    姓名 VARCHAR(255) NOT NULL,
                     工作单位 VARCHAR(255),
-                    职业     VARCHAR(255),
+                    职业 VARCHAR(255),
                     PRIMARY KEY (身份证号)
                 );
             """;
@@ -40,9 +40,9 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_经理 = """
                 CREATE TABLE IF NOT EXISTS 经理
                 (
-                    经理号    INT          NOT NULL AUTO_INCREMENT,
-                    身份证号  VARCHAR(255) NOT NULL,
-                    分公司_id INT          NOT NULL,
+                    经理号 INT NOT NULL AUTO_INCREMENT,
+                    身份证号 VARCHAR(255) NOT NULL,
+                    分公司_id INT NOT NULL,
                     PRIMARY KEY (经理号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
@@ -52,12 +52,12 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_导游员工 = """
                 CREATE TABLE IF NOT EXISTS 导游员工
                 (
-                    导游号       INT          NOT NULL AUTO_INCREMENT,
-                    身份证号     VARCHAR(255) NOT NULL,
+                    导游号 INT NOT NULL AUTO_INCREMENT,
+                    身份证号 VARCHAR(255) NOT NULL,
                     导游资格等级 VARCHAR(255) NOT NULL,
-                    业绩金额     FLOAT        NOT NULL,
-                    分公司_id    INT          NOT NULL,
-                    旅游团_id    INT          NOT NULL,
+                    业绩金额 FLOAT NOT NULL,
+                    分公司_id INT NOT NULL,
+                    旅游团_id INT NOT NULL,
                     PRIMARY KEY (导游号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
@@ -75,9 +75,9 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_顾客 = """
                 CREATE TABLE IF NOT EXISTS 顾客
                 (
-                    身份证号  VARCHAR(255) NOT NULL,
-                    消费金额  FLOAT        NOT NULL,
-                    旅游团_id INT          NOT NULL,
+                    身份证号 VARCHAR(255) NOT NULL,
+                    消费金额 FLOAT NOT NULL,
+                    旅游团_id INT NOT NULL,
                     PRIMARY KEY (身份证号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
                     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
@@ -87,7 +87,7 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_旅游线路 = """
                 CREATE TABLE IF NOT EXISTS 旅游线路
                 (
-                    id        INT NOT NULL AUTO_INCREMENT,
+                    id INT NOT NULL AUTO_INCREMENT,
                     总公司_id INT NOT NULL,
                     PRIMARY KEY (id)
                 );
@@ -96,16 +96,16 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_旅游信息 = """
                 CREATE TABLE IF NOT EXISTS 旅游信息
                 (
-                    id            INT            NOT NULL AUTO_INCREMENT,
-                    旅游时间      VARCHAR(255)   NOT NULL,
-                    旅游线路      VARCHAR(255)   NOT NULL,
-                    旅游费用      FLOAT          NOT NULL,
-                    保险          VARCHAR(255)   NOT NULL,
-                    服务等级      VARCHAR(255)   NOT NULL,
-                    旅游合同      BLOB,
-                    旅游团_id     INT            NOT NULL,
-                    顾客_身份证号 VARCHAR(255)   NOT NULL,
-                    旅游线路_id   INT            NOT NULL,
+                    id INT NOT NULL AUTO_INCREMENT,
+                    旅游时间 VARCHAR(255) NOT NULL,
+                    旅游线路 VARCHAR(255) NOT NULL,
+                    旅游费用 FLOAT NOT NULL,
+                    保险 VARCHAR(255) NOT NULL,
+                    服务等级 VARCHAR(255) NOT NULL,
+                    旅游合同 BLOB,
+                    旅游团_id INT NOT NULL,
+                    顾客_身份证号 VARCHAR(255) NOT NULL,
+                    旅游线路_id INT NOT NULL,
                     PRIMARY KEY (id),
                     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
                     FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号),
@@ -116,8 +116,8 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_地点 = """
                 CREATE TABLE IF NOT EXISTS 地点
                 (
-                    地点        VARCHAR(255) NOT NULL,
-                    旅游线路_id INT          NOT NULL,
+                    地点 VARCHAR(255) NOT NULL,
+                    旅游线路_id INT NOT NULL,
                     PRIMARY KEY (地点, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
                 );
@@ -126,8 +126,8 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_景点 = """
                 CREATE TABLE IF NOT EXISTS 景点
                 (
-                    景点        VARCHAR(255) NOT NULL,
-                    旅游线路_id INT          NOT NULL,
+                    景点 VARCHAR(255) NOT NULL,
+                    旅游线路_id INT NOT NULL,
                     PRIMARY KEY (景点, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
                 );
@@ -136,12 +136,12 @@ public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_旅游时间段 = """
                 CREATE TABLE IF NOT EXISTS 旅游时间段
                 (
-                    旅游时间段  VARCHAR(255) NOT NULL,
-                    价格        FLOAT        NOT NULL,
-                    交通方式    VARCHAR(255) NOT NULL,
-                    服务等级    VARCHAR(255) NOT NULL,
-                    收入信息    FLOAT        NOT NULL,
-                    旅游线路_id INT          NOT NULL,
+                    旅游时间段 VARCHAR(255) NOT NULL,
+                    价格 FLOAT NOT NULL,
+                    交通方式 VARCHAR(255) NOT NULL,
+                    服务等级 VARCHAR(255) NOT NULL,
+                    收入信息 FLOAT NOT NULL,
+                    旅游线路_id INT NOT NULL,
                     PRIMARY KEY (旅游时间段, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
                 );
@@ -161,7 +161,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.1";
+            dbVersion = "1.1.1";
         } catch (IOException e) {
             logger.error("Database config failed", e);
         }

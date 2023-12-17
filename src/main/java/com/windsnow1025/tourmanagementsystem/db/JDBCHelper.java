@@ -160,7 +160,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.1.2";
+            dbVersion = "1.1.4";
         } catch (IOException e) {
             logger.error("Database config failed", e);
         }
@@ -192,6 +192,7 @@ public class JDBCHelper extends DatabaseHelper {
     public void onUpgrade() throws SQLException {
         try (Statement statement = getConnection().createStatement()) {
             // Drop all
+            statement.executeUpdate("DROP TABLE IF EXISTS metadata");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 景点");
             statement.executeUpdate("DROP TABLE IF EXISTS 地点");

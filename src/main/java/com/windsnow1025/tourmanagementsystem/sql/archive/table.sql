@@ -113,7 +113,8 @@ CREATE TABLE 旅游线路_旅游时间段_旅游信息
     旅游线路_id           INT          NOT NULL,
     旅游时间段_时间段 VARCHAR(255) NOT NULL,
     旅游信息_id           INT          NOT NULL,
-    PRIMARY KEY (旅游线路_id, 旅游时间段_时间段),
+    PRIMARY KEY (旅游线路_id, 旅游时间段_时间段, 旅游信息_id),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id),
-    FOREIGN KEY (旅游时间段_时间段) REFERENCES 旅游时间段 (时间段)
+    FOREIGN KEY (旅游时间段_时间段) REFERENCES 旅游时间段 (时间段),
+    FOREIGN KEY (旅游信息_id) REFERENCES 旅游信息 (id)
 );

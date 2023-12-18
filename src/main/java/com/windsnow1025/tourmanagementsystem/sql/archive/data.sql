@@ -2040,25 +2040,25 @@ INSERT INTO 经理 (经理号, 身份证号, 分公司_id) VALUES (1009, '103135
 
 INSERT INTO 经理 (经理号, 身份证号, 分公司_id) VALUES (1010, '1032208022', 9);
 
-INSERT INTO 旅游团 (id) VALUES (1);
+INSERT INTO 旅游团 (分公司_id) VALUES (1);
 
-INSERT INTO 旅游团 (id) VALUES (2);
+INSERT INTO 旅游团 (分公司_id) VALUES (2);
 
-INSERT INTO 旅游团 (id) VALUES (3);
+INSERT INTO 旅游团 (分公司_id) VALUES (3);
 
-INSERT INTO 旅游团 (id) VALUES (4);
+INSERT INTO 旅游团 (分公司_id) VALUES (4);
 
-INSERT INTO 旅游团 (id) VALUES (5);
+INSERT INTO 旅游团 (分公司_id) VALUES (5);
 
-INSERT INTO 旅游团 (id) VALUES (6);
+INSERT INTO 旅游团 (分公司_id) VALUES (6);
 
-INSERT INTO 旅游团 (id) VALUES (7);
+INSERT INTO 旅游团 (分公司_id) VALUES (7);
 
-INSERT INTO 旅游团 (id) VALUES (8);
+INSERT INTO 旅游团 (分公司_id) VALUES (8);
 
-INSERT INTO 旅游团 (id) VALUES (9);
+INSERT INTO 旅游团 (分公司_id) VALUES (9);
 
-INSERT INTO 旅游团 (id) VALUES (10);
+INSERT INTO 旅游团 (分公司_id) VALUES (10);
 
 INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1003773759', 6);
 

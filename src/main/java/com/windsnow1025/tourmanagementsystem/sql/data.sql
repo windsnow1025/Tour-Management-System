@@ -6120,25 +6120,38 @@ INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('The Palace Museum', 1);
 
 INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('Tian Sha', 9);
 
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('April', 4700, 'Bus', '3', 2300, 4);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('August', 5200, 'Bus', '3', 3000, 8);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('Februray', 5500, 'airplane', '4', 1400, 2);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('January', 6000, 'Bus', '3', 2000, 1);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('July', 5000, 'Bus', '3', 2900, 7);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('June', 7700, 'airplane', '4', 3700, 6);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('March', 7000, 'Bus', '3', 3200, 3);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('May', 9000, 'airplane', '5', 4000, 5);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('October', 4300, 'Bus', '3', 2000, 10);
-
-INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 收入信息, 旅游线路_id) VALUES ('September', 8000, 'airplane', '5', 3200, 9);
+INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 旅游线路_id)
+VALUES
+    ('April', 4700, 'Bus', '3', 4),
+    ('August', 5200, 'Bus', '3', 8),
+    ('February', 5500, 'airplane', '4', 2),
+    ('January', 6000, 'Bus', '3', 1),
+    ('July', 5000, 'Bus', '3', 7),
+    ('June', 7700, 'airplane', '4', 6),
+    ('March', 7000, 'Bus', '3', 3),
+    ('May', 9000, 'airplane', '5', 5),
+    ('October', 4300, 'Bus', '3', 10),
+    ('September', 8000, 'airplane', '5', 9),
+    ('April', 4700, 'Train', '3', 4),
+    ('August', 5200, 'Car', '3', 8),
+    ('February', 5500, 'airplane', '4', 2),
+    ('January', 6000, 'Train', '3', 1),
+    ('July', 5000, 'Car', '3', 7),
+    ('June', 7700, 'Train', '4', 6),
+    ('March', 7000, 'Car', '3', 3),
+    ('May', 9000, 'Train', '5', 5),
+    ('October', 4300, 'Car', '3', 10),
+    ('September', 8000, 'Train', '5', 9),
+    ('April', 4700, 'airplane', '3', 4),
+    ('August', 5200, 'Boat', '3', 8),
+    ('February', 5500, 'Train', '4', 2),
+    ('January', 6000, 'Boat', '3', 1),
+    ('July', 5000, 'airplane', '3', 7),
+    ('June', 7700, 'Boat', '4', 6),
+    ('March', 7000, 'airplane', '3', 3),
+    ('May', 9000, 'Boat', '5', 5),
+    ('October', 4300, 'airplane', '3', 10),
+    ('September', 8000, 'Boat', '5', 9);
 
 INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 业绩金额, 分公司_id, 旅游团_id) VALUES (1, '1035555550', '3', 12589, 1, 1);
 

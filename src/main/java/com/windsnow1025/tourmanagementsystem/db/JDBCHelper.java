@@ -145,7 +145,7 @@ public class JDBCHelper extends DatabaseHelper {
                 CREATE TABLE 旅游线路_旅游时间段_旅游信息
                 (
                     旅游线路_id INT NOT NULL,
-                    旅游时间段_id VARCHAR(255) NOT NULL,
+                    旅游时间段_id INT NOT NULL,
                     旅游信息_id INT NOT NULL,
                     PRIMARY KEY (旅游线路_id, 旅游时间段_id, 旅游信息_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id),

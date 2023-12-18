@@ -46,11 +46,9 @@ CREATE TABLE 导游员工
     导游号       INT          NOT NULL AUTO_INCREMENT,
     身份证号     VARCHAR(255) NOT NULL,
     导游资格等级 VARCHAR(255) NOT NULL,
-    分公司_id    INT          NOT NULL,
     旅游团_id    INT          NOT NULL,
     PRIMARY KEY (导游号),
     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
-    FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id),
     FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
 );
 

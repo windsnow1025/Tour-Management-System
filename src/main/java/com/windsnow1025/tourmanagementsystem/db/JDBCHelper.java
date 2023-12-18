@@ -4,6 +4,7 @@ import org.json.JSONObject;
 
 import java.io.*;
 import java.sql.*;
+import java.util.logging.Level;
 
 public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_总公司 = """
@@ -65,11 +66,10 @@ public class JDBCHelper extends DatabaseHelper {
                     导游号 INT NOT NULL AUTO_INCREMENT,
                     身份证号 VARCHAR(255) NOT NULL,
                     导游资格等级 VARCHAR(255) NOT NULL,
-                    分公司_id INT NOT NULL,
                     旅游团_id INT NOT NULL,
                     PRIMARY KEY (导游号),
                     FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号),
-                    FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id)
+                    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id)
                 );
             """;
 
@@ -119,7 +119,6 @@ public class JDBCHelper extends DatabaseHelper {
                     价格 FLOAT NOT NULL,
                     交通方式 VARCHAR(255) NOT NULL,
                     服务等级 VARCHAR(255) NOT NULL,
-                    收入信息 FLOAT NOT NULL,
                     旅游线路_id INT NOT NULL,
                     PRIMARY KEY (旅游时间段, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
@@ -159,9 +158,9 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.1.5";
+            dbVersion = "1.2.3";
         } catch (IOException e) {
-            logger.error("Database config failed", e);
+            logger.log(Level.SEVERE, "Database config failed", e);
         }
     }
 
@@ -184,7 +183,7 @@ public class JDBCHelper extends DatabaseHelper {
 
         createMetadata();
         insertVersion();
-        logger.info("Database created");
+        logger.log(Level.INFO, "Database created");
     }
 
     @Override
@@ -192,14 +191,14 @@ public class JDBCHelper extends DatabaseHelper {
         try (Statement statement = getConnection().createStatement()) {
             // Drop all
             statement.executeUpdate("DROP TABLE IF EXISTS metadata");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 景点");
             statement.executeUpdate("DROP TABLE IF EXISTS 地点");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路");
             statement.executeUpdate("DROP TABLE IF EXISTS 顾客");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
             statement.executeUpdate("DROP TABLE IF EXISTS 导游员工");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
             statement.executeUpdate("DROP TABLE IF EXISTS 经理");
             statement.executeUpdate("DROP TABLE IF EXISTS 身份信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游分公司");
@@ -208,6 +207,6 @@ public class JDBCHelper extends DatabaseHelper {
 
         onCreate();
         updateVersion();
-        logger.info("Database upgraded");
+        logger.log(Level.INFO, "Database upgraded");
     }
 }

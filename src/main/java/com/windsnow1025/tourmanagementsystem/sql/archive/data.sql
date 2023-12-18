@@ -2040,2025 +2040,2025 @@ INSERT INTO 经理 (经理号, 身份证号, 分公司_id) VALUES (1009, '103135
 
 INSERT INTO 经理 (经理号, 身份证号, 分公司_id) VALUES (1010, '1032208022', 9);
 
-INSERT INTO 旅游团 (id) VALUES (1);
+INSERT INTO 旅游团 (分公司_id) VALUES (1);
 
-INSERT INTO 旅游团 (id) VALUES (2);
+INSERT INTO 旅游团 (分公司_id) VALUES (2);
 
-INSERT INTO 旅游团 (id) VALUES (3);
+INSERT INTO 旅游团 (分公司_id) VALUES (3);
 
-INSERT INTO 旅游团 (id) VALUES (4);
+INSERT INTO 旅游团 (分公司_id) VALUES (4);
 
-INSERT INTO 旅游团 (id) VALUES (5);
+INSERT INTO 旅游团 (分公司_id) VALUES (5);
 
-INSERT INTO 旅游团 (id) VALUES (6);
+INSERT INTO 旅游团 (分公司_id) VALUES (6);
 
-INSERT INTO 旅游团 (id) VALUES (7);
+INSERT INTO 旅游团 (分公司_id) VALUES (7);
 
-INSERT INTO 旅游团 (id) VALUES (8);
+INSERT INTO 旅游团 (分公司_id) VALUES (8);
 
-INSERT INTO 旅游团 (id) VALUES (9);
+INSERT INTO 旅游团 (分公司_id) VALUES (9);
 
-INSERT INTO 旅游团 (id) VALUES (10);
+INSERT INTO 旅游团 (分公司_id) VALUES (10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1003773759', 16265.06, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1003773759', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1005750065', 7153.08, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1005750065', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1005772359', 19302.08, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1005772359', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1007356365', 4271.69, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1007356365', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1011873347', 21666.96, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1011873347', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1012477284', 7447.79, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1012477284', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1021372339', 7292.01, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1021372339', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1031358786', 22216.18, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1031358786', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1032208022', 25300.75, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1032208022', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1032407086', 28699.42, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1032407086', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1035555550', 24940.47, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1035555550', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1036217391', 6366.95, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1036217391', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1038853989', 1322.84, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1038853989', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1039800029', 17867.47, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1039800029', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1040254104', 20677.07, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1040254104', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1041450877', 11691.51, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1041450877', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1041736492', 18519.02, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1041736492', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1043694265', 16267.73, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1043694265', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1045084079', 26917.53, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1045084079', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1046303673', 20047.01, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1046303673', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1046925037', 26601.66, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1046925037', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1048125202', 27694.96, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1048125202', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1049225981', 24633.42, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1049225981', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1051317239', 1974.65, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1051317239', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1054413360', 13076.45, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1054413360', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1058707520', 6749.39, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1058707520', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1062174013', 3096.22, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1062174013', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1063782783', 12474.62, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1063782783', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1066392595', 1559.14, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1066392595', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1069281062', 3434.95, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1069281062', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1070061626', 10048.1, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1070061626', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1073140077', 11990.41, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1073140077', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1073256974', 6026.1, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1073256974', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1074933336', 16623.8, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1074933336', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1076606551', 13228.43, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1076606551', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1077172768', 11496.82, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1077172768', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1083529400', 11950.56, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1083529400', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1083940560', 7093.95, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1083940560', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1084398475', 28930.97, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1084398475', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1085665393', 19213.79, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1085665393', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1086352413', 1210.9, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1086352413', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1093925867', 19949.95, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1093925867', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1103975555', 27659.35, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1103975555', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1112366885', 14561.82, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1112366885', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1113605195', 8139.58, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1113605195', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1126974710', 1761.47, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1126974710', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138237033', 3119.61, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138237033', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138532389', 3048.4, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138532389', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138908407', 29624.25, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1138908407', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1142308920', 22898.89, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1142308920', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1142485150', 18575.92, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1142485150', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1143663690', 5959.57, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1143663690', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1150281835', 14179.53, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1150281835', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1155951124', 6854.73, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1155951124', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1159515602', 19148.52, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1159515602', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1163255087', 3795.97, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1163255087', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1164264876', 16273.99, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1164264876', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1170617504', 28012.74, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1170617504', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1171837322', 21457.54, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1171837322', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1175529921', 26332.71, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1175529921', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1179019698', 12695.57, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1179019698', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1188638120', 6575.96, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1188638120', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1189765576', 8706.59, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1189765576', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1190307431', 9413.33, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1190307431', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1192704074', 20168.9, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1192704074', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1193001222', 23814.56, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1193001222', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1193204715', 5276.62, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1193204715', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1195157245', 9180.46, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1195157245', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1203548735', 15559.06, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1203548735', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1204319158', 28397.02, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1204319158', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1207893154', 17250.76, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1207893154', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1208483182', 7165.08, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1208483182', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1211641454', 24087.76, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1211641454', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1214503008', 14929.46, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1214503008', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1218764373', 14302.38, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1218764373', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1219959288', 12923.17, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1219959288', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1221336556', 9778.45, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1221336556', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1221833669', 6252.33, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1221833669', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1235486039', 24782.18, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1235486039', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1243116584', 5688.8, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1243116584', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1244596923', 2160.17, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1244596923', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1253183280', 19700.96, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1253183280', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1254990179', 16025.44, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1254990179', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1256916668', 6992.54, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1256916668', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1257881839', 25648.83, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1257881839', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1259040497', 5048.88, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1259040497', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1259616469', 2029.53, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1259616469', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1260573608', 17749.47, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1260573608', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1263225371', 18156.84, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1263225371', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1264859969', 8255.9, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1264859969', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1266252378', 6501.25, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1266252378', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1269434019', 12440.35, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1269434019', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1270891160', 29524.73, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1270891160', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1271836641', 27211.97, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1271836641', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1272551926', 6826.75, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1272551926', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1274433192', 16874.73, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1274433192', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1276966262', 25832.8, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1276966262', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1277039596', 28026.21, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1277039596', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1278620553', 10394.84, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1278620553', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1281915447', 16339.65, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1281915447', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1284026640', 8614.5, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1284026640', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1290513124', 5968.79, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1290513124', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1291069963', 25922.21, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1291069963', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1295265693', 2113.88, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1295265693', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1296519340', 23770.2, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1296519340', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1297163136', 23661.77, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1297163136', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1297303491', 9192.88, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1297303491', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1299183877', 14511.35, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1299183877', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1299383328', 22974.66, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1299383328', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1302146226', 10024.71, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1302146226', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1303095925', 28621.59, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1303095925', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1304268707', 15234.62, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1304268707', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1305236720', 12554.82, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1305236720', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1308602472', 10074.91, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1308602472', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1311461652', 19667.79, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1311461652', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1313861729', 12364.03, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1313861729', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1315870491', 15171.76, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1315870491', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1316545156', 11826.16, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1316545156', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1321512501', 11587.68, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1321512501', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1329914421', 23354.5, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1329914421', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1332562569', 29473.34, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1332562569', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1334985072', 27582.23, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1334985072', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1340029856', 2837.8, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1340029856', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1341643821', 8622.53, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1341643821', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1348565977', 3859.61, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1348565977', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1349832535', 25820.46, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1349832535', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1351737085', 20394.74, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1351737085', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1359933679', 16458.16, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1359933679', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1361017863', 23588.42, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1361017863', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1365106995', 4004.34, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1365106995', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1366035026', 6421.28, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1366035026', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1369319251', 18447.14, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1369319251', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1373239634', 6560.12, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1373239634', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1374109645', 4497, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1374109645', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1374979675', 11176.55, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1374979675', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1376937463', 5223.73, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1376937463', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1379160409', 24733.1, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1379160409', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1382796355', 5368.22, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1382796355', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1383361188', 2430.99, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1383361188', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1384070207', 1627.09, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1384070207', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1384763284', 2433.73, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1384763284', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1385298149', 28676.12, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1385298149', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1388412082', 28753.75, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1388412082', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1388579143', 17255.13, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1388579143', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1390142215', 2238.4, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1390142215', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1398841587', 21439.54, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1398841587', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1401740026', 19411.16, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1401740026', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1402297067', 27839.2, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1402297067', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1403753548', 11100.89, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1403753548', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1405974098', 6781.64, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1405974098', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1406104264', 11917.96, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1406104264', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1406619081', 1269.87, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1406619081', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1409106930', 21977.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1409106930', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1412913755', 3105.36, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1412913755', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1413201659', 20919.4, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1413201659', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414392160', 19619.85, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414392160', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414914922', 10012.68, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414914922', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414965774', 5527.12, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1414965774', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1421644656', 28674.34, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1421644656', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1423284658', 13784.87, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1423284658', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1430095344', 19416, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1430095344', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1434123226', 9224.36, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1434123226', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1439514663', 26023.99, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1439514663', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1444198228', 14636.46, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1444198228', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1445397933', 9409.45, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1445397933', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1446653457', 22318.27, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1446653457', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1449742965', 16772.84, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1449742965', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1449815617', 24968.12, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1449815617', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1451381148', 7778.19, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1451381148', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1451811398', 3946, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1451811398', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1453082921', 4728.19, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1453082921', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1458713248', 26025.57, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1458713248', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1464009640', 22163.7, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1464009640', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1465845741', 9719.76, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1465845741', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1468697130', 15426.33, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1468697130', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1470870199', 10115.19, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1470870199', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1475552819', 7350.04, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1475552819', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1475962726', 29007.56, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1475962726', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1479722733', 17677.26, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1479722733', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1480156570', 19295.44, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1480156570', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1480388585', 20628.1, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1480388585', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1482774905', 28151.2, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1482774905', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1484381934', 15468.72, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1484381934', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1487450605', 15642.13, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1487450605', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1488957507', 10317.16, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1488957507', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1490185179', 8773.1, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1490185179', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1491262870', 24932.01, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1491262870', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1495643735', 3649.97, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1495643735', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1497553030', 12382, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1497553030', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1503247625', 3664.94, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1503247625', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1505235646', 29480.81, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1505235646', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1505656088', 2608.65, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1505656088', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1507222866', 15327.64, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1507222866', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1508707533', 23341.93, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1508707533', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1510692686', 10073.92, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1510692686', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514564197', 10237.43, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514564197', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514582016', 6131.02, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514582016', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514772262', 28223.38, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1514772262', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1520674817', 23817.23, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1520674817', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1528629764', 27850.22, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1528629764', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1528661803', 28256.47, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1528661803', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1530342258', 1184.5, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1530342258', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1531064608', 13929.92, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1531064608', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1533191715', 9091.89, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1533191715', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538034350', 24788.51, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538034350', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538235101', 11400.22, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538235101', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538429700', 14154.59, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1538429700', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1540215633', 18730.84, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1540215633', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1541988354', 10500.04, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1541988354', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1542379799', 7120.21, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1542379799', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1550519839', 28169.36, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1550519839', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1553114650', 21147.69, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1553114650', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1553989244', 8300.49, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1553989244', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1555043312', 4276.82, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1555043312', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1556042379', 24261.96, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1556042379', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1557023003', 26479.09, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1557023003', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1557704652', 14272.56, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1557704652', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1561441207', 19157.82, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1561441207', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1561988215', 4606.55, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1561988215', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1564510483', 6368.14, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1564510483', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1564898725', 3586.93, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1564898725', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1569249620', 27298.92, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1569249620', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1572415630', 20726.57, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1572415630', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1572632406', 21835.73, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1572632406', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1573743480', 1850.85, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1573743480', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1575788107', 26529.81, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1575788107', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1576351044', 5222.2, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1576351044', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1577416464', 12659.27, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1577416464', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1580916868', 25283.28, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1580916868', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1580955927', 5814.82, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1580955927', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1583412294', 1801.49, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1583412294', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1588369355', 6498.22, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1588369355', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1588843998', 5614.61, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1588843998', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1589685313', 15621.24, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1589685313', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1590485167', 1462.28, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1590485167', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1597127676', 11188, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1597127676', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1602151684', 26436.7, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1602151684', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1606517966', 28071.74, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1606517966', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1607296817', 19829.12, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1607296817', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1612624483', 15166.87, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1612624483', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1613345272', 11044.49, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1613345272', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1613553178', 16168.53, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1613553178', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1616953744', 22943.7, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1616953744', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1619591103', 29556.93, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1619591103', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1620316331', 15718.21, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1620316331', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1626564697', 14068.72, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1626564697', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1626764206', 15274.43, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1626764206', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1629550230', 1258.1, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1629550230', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1631124318', 28656.12, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1631124318', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1632849886', 2137.64, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1632849886', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1638520819', 11882.58, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1638520819', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1643850362', 10934.26, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1643850362', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1646189177', 15986.3, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1646189177', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1649593152', 19975.5, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1649593152', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1650427775', 28979.51, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1650427775', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1653292359', 21454.33, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1653292359', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1656235478', 2901.03, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1656235478', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1656496854', 25767.41, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1656496854', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1657422775', 2583.03, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1657422775', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1661748892', 13512.85, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1661748892', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1663866841', 4530.82, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1663866841', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1667945744', 10527.13, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1667945744', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1668188044', 15144.11, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1668188044', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1668811412', 14662.43, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1668811412', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1669722854', 23004.12, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1669722854', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1670856934', 27031, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1670856934', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1672152481', 28003.62, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1672152481', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1672683903', 2444.75, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1672683903', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1674429015', 24200.13, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1674429015', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1676834025', 6224.64, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1676834025', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1679014945', 14969.77, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1679014945', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1683477299', 13565, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1683477299', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1685146550', 29123.35, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1685146550', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1686775310', 25336.56, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1686775310', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1694259031', 27221.56, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1694259031', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1694945299', 16631.21, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1694945299', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1695595395', 28543.87, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1695595395', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1695935705', 12646.36, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1695935705', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1696813074', 3483.83, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1696813074', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1696842947', 26236.49, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1696842947', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1697588022', 16879.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1697588022', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1701443157', 22076.13, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1701443157', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1702257732', 23987.05, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1702257732', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1703819610', 7940.55, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1703819610', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1706470632', 25875.84, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1706470632', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1709154465', 24301.37, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1709154465', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1709422804', 25341.74, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1709422804', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1710918293', 12087.58, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1710918293', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1711690280', 26383.63, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1711690280', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1713496232', 14721.79, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1713496232', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1714047586', 9249.97, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1714047586', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1714912159', 17853.31, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1714912159', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718294789', 16976.26, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718294789', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718504956', 10452.46, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718504956', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718765004', 3008.55, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1718765004', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1719826543', 12440.93, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1719826543', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1719846108', 1180.53, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1719846108', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1720376932', 10177.38, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1720376932', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1728180299', 20466.48, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1728180299', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1735028908', 4470.97, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1735028908', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1738133161', 1789.55, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1738133161', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1738649434', 3093.16, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1738649434', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1739288221', 19460.79, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1739288221', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1742185274', 11207.66, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1742185274', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1746166032', 17495.37, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1746166032', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1747431050', 3861.79, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1747431050', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1748333109', 2144.23, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1748333109', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1748716646', 5154.02, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1748716646', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1749362187', 12590.5, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1749362187', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1750323285', 18450.93, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1750323285', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1753628178', 9172.34, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1753628178', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1755508488', 26225.02, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1755508488', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1757029347', 10591.07, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1757029347', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1757374750', 16621.85, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1757374750', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1762606963', 4302.38, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1762606963', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1766078120', 18542.83, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1766078120', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1766133742', 3221.04, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1766133742', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1767046011', 9974.48, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1767046011', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1769850144', 17406.24, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1769850144', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1772718967', 20435.87, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1772718967', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1773801777', 4750.1, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1773801777', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1775684725', 12980.96, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1775684725', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1777863626', 19331.12, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1777863626', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1782156444', 17326.63, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1782156444', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1783787283', 1457.17, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1783787283', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1784771540', 18152.73, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1784771540', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1784913992', 28201.08, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1784913992', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1785651981', 5520.93, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1785651981', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1787657440', 22683.16, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1787657440', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1787905106', 3997.26, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1787905106', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1790070732', 19612.93, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1790070732', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1791235258', 20605.56, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1791235258', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1792008352', 15671.84, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1792008352', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1792193564', 17645.16, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1792193564', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1795416040', 1735.77, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1795416040', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1795444052', 14400.16, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1795444052', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1797717032', 15581.05, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1797717032', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1799324914', 28008.28, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1799324914', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1805220441', 25516.85, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1805220441', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1806272161', 16165.39, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1806272161', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808200141', 5858.42, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808200141', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808239748', 16118.11, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808239748', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808461265', 1009.44, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1808461265', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1810525614', 3980.52, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1810525614', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1810981996', 7638.09, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1810981996', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1812143443', 4915.22, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1812143443', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1812963357', 7360.41, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1812963357', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813245202', 22206.09, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813245202', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813767187', 3695.86, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813767187', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813902522', 29400.12, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1813902522', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1814232820', 17827.06, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1814232820', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1819345226', 6885.32, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1819345226', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1819570763', 27089.9, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1819570763', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1825337046', 12942.38, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1825337046', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1828420942', 28442.38, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1828420942', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1833304899', 17810.01, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1833304899', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1836009686', 20340.84, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1836009686', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1837120727', 19229.14, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1837120727', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1837204475', 23910.99, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1837204475', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1842032700', 2282.49, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1842032700', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1845461740', 7228.96, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1845461740', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1846416074', 7854.97, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1846416074', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1846565115', 10541.39, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1846565115', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1849198864', 18464.97, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1849198864', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1849560885', 21646.59, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1849560885', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1850620593', 12032.39, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1850620593', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1857410820', 21740.6, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1857410820', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1860249553', 19027.81, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1860249553', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1861872901', 14209.17, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1861872901', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1863683888', 11495.67, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1863683888', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1863840842', 14559.52, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1863840842', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1864072449', 20777.81, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1864072449', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1867724189', 25408.59, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1867724189', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1869425884', 22338.27, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1869425884', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1875190414', 25995.34, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1875190414', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1879415632', 4567.48, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1879415632', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1883722865', 6091.11, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1883722865', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1884405325', 19870.66, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1884405325', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1891046536', 16051.45, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1891046536', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1891889574', 16379.81, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1891889574', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1896006992', 19595.65, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1896006992', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1896256687', 16512.99, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1896256687', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1897776644', 9585.95, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1897776644', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1898793745', 29670.7, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1898793745', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1899583856', 3445.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1899583856', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1900200311', 19483.86, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1900200311', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1900324294', 28052.89, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1900324294', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1902924423', 8266.74, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1902924423', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1905139210', 12813.9, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1905139210', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1905947317', 8760.79, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1905947317', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1907545968', 10637.7, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1907545968', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1911275421', 2544.89, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1911275421', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1913904605', 18515.05, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1913904605', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1914182413', 15813.11, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1914182413', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1915794627', 11754.21, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1915794627', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1917916310', 13444.32, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1917916310', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1921853399', 3897.33, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1921853399', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1923482380', 7506.61, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1923482380', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1927981791', 24704.73, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1927981791', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1928611833', 13869.2, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1928611833', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1936798703', 4641.91, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1936798703', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1945825956', 25690.48, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1945825956', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1950761357', 1814.27, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1950761357', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1953984884', 15542.02, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1953984884', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1955679779', 6212.13, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1955679779', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1959522660', 5808.36, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1959522660', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1966998089', 15192.17, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1966998089', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1968995671', 13440.66, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1968995671', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1972420767', 9098.92, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1972420767', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1975434532', 20237.58, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1975434532', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976685776', 20914.82, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976685776', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976820313', 14137.26, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976820313', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976998625', 3279.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1976998625', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1977479956', 27465.08, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1977479956', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1978065718', 12233.72, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1978065718', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1978154873', 28210.4, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1978154873', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1980166080', 29446.13, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1980166080', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1983003496', 23203.81, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1983003496', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1984960943', 7795.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1984960943', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1987473551', 4747.58, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1987473551', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1988138262', 8359.55, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1988138262', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1988557754', 8290.59, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1988557754', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1991076697', 24245.07, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1991076697', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1992260324', 7578.93, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1992260324', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1992775904', 1155.82, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1992775904', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1997403407', 5802.56, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1997403407', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1997917030', 20154.24, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1997917030', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1998360287', 14547.43, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1998360287', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1998991029', 18228.66, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1998991029', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1999910927', 3442.67, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('1999910927', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2003122667', 10876.13, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2003122667', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2003372061', 7137.78, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2003372061', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2005853435', 29880.47, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2005853435', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2007379024', 10773.95, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2007379024', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2008736797', 17690.36, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2008736797', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2012242527', 18551.31, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2012242527', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2015526339', 8952.48, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2015526339', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2019061357', 11431.62, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2019061357', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2019503777', 24551.41, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2019503777', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2021688427', 17369.83, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2021688427', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2028367204', 17347.14, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2028367204', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2029168209', 22789.81, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2029168209', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2033403989', 1982.37, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2033403989', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2035299424', 28971.29, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2035299424', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2036909096', 22291.61, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2036909096', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2037027663', 27011.72, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2037027663', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2037718090', 29276.13, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2037718090', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2038049914', 14925.96, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2038049914', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2041116339', 22148.88, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2041116339', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2041322958', 19889.09, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2041322958', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2044152457', 25156.88, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2044152457', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2044269317', 22120.09, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2044269317', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2047470042', 17181.12, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2047470042', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2047827335', 14200.02, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2047827335', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2052418777', 26394.66, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2052418777', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2052617671', 5377.62, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2052617671', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2054429262', 6114.84, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2054429262', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2056215686', 7746.22, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2056215686', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2062464820', 13511.6, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2062464820', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2063030453', 2943.72, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2063030453', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2066298573', 1818.22, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2066298573', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2068575247', 6359.39, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2068575247', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2069868187', 9936.2, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2069868187', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2070283788', 28606.7, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2070283788', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2071113449', 7389.96, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2071113449', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2071634781', 3589.53, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2071634781', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2077814195', 29664.55, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2077814195', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2078552463', 15363.59, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2078552463', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2078970944', 10571.47, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2078970944', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2079045374', 17084.14, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2079045374', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2081125420', 23040.21, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2081125420', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2082551390', 13136.98, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2082551390', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2083118004', 17010.81, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2083118004', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2086214333', 1970.79, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2086214333', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2086582909', 11696.42, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2086582909', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2087808542', 8902.78, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2087808542', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089293565', 16587.36, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089293565', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089658218', 10132.68, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089658218', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089724226', 4467.29, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2089724226', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2094385377', 10738.98, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2094385377', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2094927988', 5650.66, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2094927988', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2095575373', 7315.67, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2095575373', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2095663189', 6887.39, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2095663189', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2096235930', 3434.85, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2096235930', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2096665934', 17478.7, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2096665934', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2099250641', 29203.6, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2099250641', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2100512349', 18657.19, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2100512349', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2108877206', 27866.03, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2108877206', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2109674912', 16573.85, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2109674912', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2111004059', 23364.07, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2111004059', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2114889328', 1398.56, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2114889328', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2115202568', 12878.05, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2115202568', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2116462371', 6266.05, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2116462371', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2119406002', 15271.19, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2119406002', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2119871510', 16843.33, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2119871510', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2121718348', 29309.81, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2121718348', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2123318420', 27087.92, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2123318420', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2124840584', 10989.88, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2124840584', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2128088242', 25830.26, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2128088242', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2128101402', 21832.6, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2128101402', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2130269549', 16755.06, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2130269549', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2131461895', 19751.11, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2131461895', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2132288368', 20590.13, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2132288368', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2135601809', 13177.87, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2135601809', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2137468353', 10389.46, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2137468353', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2140995845', 9969.49, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2140995845', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2142047032', 9781.98, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2142047032', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2142840952', 3394.57, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2142840952', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2143968080', 12024.86, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2143968080', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2144854333', 7608.46, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2144854333', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2145041959', 7834.86, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2145041959', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2146535345', 23189.12, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2146535345', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2148141603', 2312.38, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2148141603', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2149701888', 17556.93, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2149701888', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2153800394', 10350.02, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2153800394', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2154431801', 29506.15, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2154431801', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2154729466', 6519.84, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2154729466', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2158488222', 13366.41, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2158488222', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2161221803', 19445.95, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2161221803', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2166828358', 4825.62, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2166828358', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2167620420', 22123.81, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2167620420', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2168959027', 7789.91, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2168959027', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2170663267', 14619.93, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2170663267', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2170717132', 13395.92, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2170717132', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2173355452', 26302.05, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2173355452', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2175445208', 15550.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2175445208', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2177101478', 6559.87, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2177101478', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2178651332', 18293.17, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2178651332', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2183691141', 4212.4, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2183691141', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2184994901', 6347.76, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2184994901', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2185880310', 18176.73, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2185880310', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2186139973', 15789.26, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2186139973', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2189803051', 1484.32, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2189803051', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2191383476', 23753.5, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2191383476', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2193242583', 21976.24, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2193242583', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2193645430', 1353.36, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2193645430', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2196832771', 3308.9, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2196832771', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198068646', 2294.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198068646', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198690052', 18124, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198690052', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198907505', 25055.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2198907505', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2203782226', 22606.89, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2203782226', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2204663433', 11950.13, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2204663433', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2205317019', 10237.91, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2205317019', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2205355460', 21100.93, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2205355460', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2206651333', 21490.35, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2206651333', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2207032553', 21944.91, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2207032553', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2208507975', 8827.01, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2208507975', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2211524785', 24232.47, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2211524785', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2211949624', 18347.62, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2211949624', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2212317069', 29974.38, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2212317069', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2213358752', 11972.16, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2213358752', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2215434370', 17314.15, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2215434370', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2216490444', 24285.4, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2216490444', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2216784403', 9954.96, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2216784403', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2218457767', 18187.05, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2218457767', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2219262961', 5117.38, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2219262961', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2220175749', 10924.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2220175749', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2222536545', 7179.46, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2222536545', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2226038602', 21683.64, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2226038602', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2228303112', 15138.25, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2228303112', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2233138124', 26406.16, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2233138124', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2233430777', 14047.06, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2233430777', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2234724305', 7462.04, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2234724305', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2235904159', 28479.25, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2235904159', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2237574702', 6632.51, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2237574702', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2240911586', 28642.33, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2240911586', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2242916253', 10783.14, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2242916253', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2243929882', 5219.54, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2243929882', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2247641109', 22098.81, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2247641109', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2247759424', 19638.1, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2247759424', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2249371411', 20943.96, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2249371411', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2250359577', 29998.99, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2250359577', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2253361078', 16480.85, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2253361078', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2257263680', 3920.17, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2257263680', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2261933882', 3389.23, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2261933882', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2264163058', 18265.58, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2264163058', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2264893003', 9612.57, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2264893003', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2265814169', 19548.04, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2265814169', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2271134889', 11655.06, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2271134889', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2274496611', 28702.31, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2274496611', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2277704036', 26402.72, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2277704036', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2279551667', 23417.39, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2279551667', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2281610801', 24968.24, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2281610801', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2288052727', 9137.25, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2288052727', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2288705682', 5241.1, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2288705682', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2290047132', 7547.83, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2290047132', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2290363675', 17731.99, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2290363675', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2292207618', 18126.55, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2292207618', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2292515784', 27943.29, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2292515784', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2295140293', 5988.69, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2295140293', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2295790202', 28526.09, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2295790202', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2296114760', 22238.32, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2296114760', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2296360531', 1490.98, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2296360531', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2297281858', 2452.95, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2297281858', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2298122553', 22027.55, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2298122553', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2300497811', 7052.25, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2300497811', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2301685233', 16102.13, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2301685233', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2304898615', 23967.77, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2304898615', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2308688862', 25806.08, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2308688862', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2310035910', 5609.17, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2310035910', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314622201', 8196.4, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314622201', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314867525', 23882.96, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314867525', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314983244', 10265.85, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2314983244', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2316886121', 17359.89, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2316886121', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2317028417', 11949.71, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2317028417', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2318389240', 2562.29, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2318389240', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319227649', 5063.41, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319227649', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319647647', 3141.87, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319647647', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319957004', 16384.22, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2319957004', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2323542864', 15593.4, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2323542864', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2327607446', 20519.67, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2327607446', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2331577935', 11253.34, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2331577935', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2332480303', 27220.51, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2332480303', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2337225032', 7906.62, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2337225032', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2341830675', 11207.6, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2341830675', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2344595336', 18772.78, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2344595336', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2348348914', 4078.63, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2348348914', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2348805582', 2930.1, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2348805582', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2349070873', 12345.21, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2349070873', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2355513401', 15735.99, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2355513401', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2359776499', 26759.68, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2359776499', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2364201335', 16809.38, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2364201335', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2365837862', 13097.33, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2365837862', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2366288929', 8453.61, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2366288929', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2368289045', 29432.37, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2368289045', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2368628072', 28775.4, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2368628072', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2371831030', 8429.1, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2371831030', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2373219776', 3880.66, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2373219776', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2376750888', 12411.03, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2376750888', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2378989398', 11899.86, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2378989398', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2380230681', 20909.08, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2380230681', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2380385482', 12433.06, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2380385482', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2381573051', 18333.47, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2381573051', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2386743179', 19041.88, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2386743179', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2391508122', 16269.31, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2391508122', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2394310543', 24991.43, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2394310543', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2395307619', 14812.76, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2395307619', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2396210169', 22031.85, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2396210169', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2397182750', 10339.1, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2397182750', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2399184017', 28949.07, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2399184017', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2401499269', 11061.13, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2401499269', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2401610689', 5925.52, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2401610689', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2402428731', 11074.21, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2402428731', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2403115803', 24075.61, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2403115803', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2404424046', 21860.63, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2404424046', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2405072673', 8388.36, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2405072673', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2405600529', 5388.21, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2405600529', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2408588735', 15271.12, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2408588735', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2413266802', 9286.14, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2413266802', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2417706048', 24057.62, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2417706048', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2418954909', 22809.03, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2418954909', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2428178896', 12173.53, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2428178896', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2429048092', 29301.72, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2429048092', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2435960942', 10859.85, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2435960942', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2438000368', 16169.91, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2438000368', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2439285648', 11228.71, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2439285648', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2439885932', 6015.06, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2439885932', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2442283144', 2848.9, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2442283144', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2445652845', 2695.62, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2445652845', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2446993660', 11330.54, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2446993660', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2447109410', 7018.68, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2447109410', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2450986863', 14547.37, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2450986863', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2451678252', 10813.83, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2451678252', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2456696629', 22873.22, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2456696629', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2461119798', 18278.32, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2461119798', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2462312772', 16514.78, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2462312772', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2462529988', 8160.24, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2462529988', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2470879117', 9435.23, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2470879117', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2483250944', 12526.02, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2483250944', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2484258156', 14457.63, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2484258156', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2485139331', 2596.69, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2485139331', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2486857900', 9719.48, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2486857900', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487476308', 14346.78, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487476308', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487576090', 18094.14, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487576090', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487664931', 16976.66, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2487664931', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2488796213', 4075.63, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2488796213', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2488893973', 10716.48, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2488893973', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2492646876', 27982.68, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2492646876', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2493722562', 11220.56, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2493722562', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2497088725', 10080.5, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2497088725', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2498739965', 15855.59, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2498739965', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2501416165', 11415.94, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2501416165', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2502096648', 7291.29, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2502096648', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2505640878', 2056.69, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2505640878', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2509569673', 22596.81, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2509569673', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2510899517', 4897.08, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2510899517', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2511063761', 26912.63, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2511063761', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2513216783', 23881.37, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2513216783', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2521862517', 26737.78, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2521862517', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2522268494', 4633.94, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2522268494', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2522552951', 20716.76, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2522552951', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2523712405', 6035.91, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2523712405', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2524937098', 14919.11, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2524937098', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2529761927', 28218, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2529761927', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2532632910', 13690.9, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2532632910', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2534571838', 9573.47, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2534571838', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2535160397', 26416.88, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2535160397', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2537574820', 19774.91, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2537574820', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2538727121', 19521.64, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2538727121', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2541266726', 5210.34, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2541266726', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2542799250', 27930.21, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2542799250', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2545728959', 19369.45, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2545728959', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2549850897', 29445.62, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2549850897', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2553549832', 26676.15, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2553549832', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2555925315', 10539.51, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2555925315', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2560776014', 24937.41, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2560776014', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2563836399', 24156.03, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2563836399', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2564002970', 13790.56, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2564002970', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2564161487', 20566.52, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2564161487', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2567283361', 16073, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2567283361', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2568767704', 5593.89, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2568767704', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2569210424', 14536.2, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2569210424', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2569600841', 14040.77, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2569600841', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2573145170', 11546.45, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2573145170', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2574121210', 16848.58, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2574121210', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2576403754', 23697.07, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2576403754', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2577075338', 14734.98, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2577075338', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2577516948', 12972.71, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2577516948', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2581329577', 2810.68, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2581329577', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2584105065', 7795.16, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2584105065', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2588170538', 20294.62, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2588170538', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2588633093', 22659.92, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2588633093', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2589403971', 18333.03, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2589403971', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2591362364', 4382.64, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2591362364', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2596561977', 13569.6, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2596561977', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2599865227', 21408.43, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2599865227', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2602129398', 12324.32, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2602129398', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2602743212', 3207.53, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2602743212', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2603036363', 20800.06, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2603036363', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2605038465', 21712.95, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2605038465', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2608174216', 12991.83, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2608174216', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2608679950', 14592.48, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2608679950', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2611191370', 21400.74, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2611191370', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2612424768', 14296.93, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2612424768', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2613637286', 8979.02, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2613637286', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2614963345', 13838.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2614963345', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2615762444', 9794.69, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2615762444', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2617824439', 5736.91, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2617824439', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2619434664', 25749.73, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2619434664', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2623413588', 4089.94, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2623413588', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2624365846', 10543.85, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2624365846', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2629388479', 12531.01, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2629388479', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2630493635', 27670.98, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2630493635', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2631676509', 4296.99, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2631676509', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2634721468', 23389.89, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2634721468', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2637726173', 28102.41, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2637726173', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2638222373', 16041.04, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2638222373', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2639929029', 12423.63, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2639929029', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2640125836', 26540.12, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2640125836', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2640477255', 22456.61, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2640477255', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2641467536', 14560.65, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2641467536', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2641567138', 14719.25, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2641567138', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2642077827', 20208.76, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2642077827', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2647175269', 7517.12, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2647175269', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2647721701', 24896.12, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2647721701', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2649277461', 21889.04, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2649277461', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2650713895', 9903.36, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2650713895', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2650746120', 23535.05, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2650746120', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2652873655', 10830.75, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2652873655', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2653135058', 21859.19, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2653135058', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2654012924', 5610.51, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2654012924', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2656454699', 3793.38, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2656454699', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2656974930', 14343.9, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2656974930', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2657614480', 25135.51, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2657614480', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2658014152', 14582.06, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2658014152', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2660663583', 21811.78, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2660663583', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2663321579', 11374.36, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2663321579', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2665053289', 25000.6, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2665053289', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2665478199', 26906.62, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2665478199', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2669607906', 1248.07, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2669607906', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2671731213', 9682.25, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2671731213', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2671992641', 3559.19, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2671992641', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2672359863', 2963.43, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2672359863', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2674844501', 26854.84, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2674844501', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2676717960', 16997.38, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2676717960', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2678712661', 24685.5, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2678712661', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2679166840', 6883.96, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2679166840', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2680596938', 17338.26, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2680596938', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2684230697', 4290.71, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2684230697', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2686357968', 23885.19, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2686357968', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2691967593', 3699.41, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2691967593', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2692858139', 21199.11, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2692858139', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2695443619', 27654.02, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2695443619', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2699914781', 7410.95, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2699914781', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2701062420', 10962.03, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2701062420', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2703680365', 8590.18, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2703680365', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2705625330', 24710.74, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2705625330', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2706075341', 15904.74, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2706075341', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2707436795', 22474.4, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2707436795', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2707806003', 1023.01, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2707806003', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2709976668', 18782.03, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2709976668', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2713446064', 20028.08, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2713446064', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2715194759', 12289.48, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2715194759', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2718661179', 7968.61, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2718661179', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2719495895', 23380.46, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2719495895', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2730776200', 14161.13, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2730776200', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2731178880', 26839.23, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2731178880', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2731256401', 9059.75, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2731256401', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2733886809', 29944.94, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2733886809', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2735865373', 23507.95, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2735865373', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2738596629', 10137.03, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2738596629', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2739328882', 27847.19, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2739328882', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2740015658', 11908.64, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2740015658', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2740306428', 4880.97, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2740306428', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2741732805', 29187.47, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2741732805', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2741977850', 19648.05, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2741977850', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2742610178', 22015.62, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2742610178', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2744466873', 15236.29, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2744466873', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2744778863', 21033.43, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2744778863', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2749418689', 3965.74, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2749418689', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2749555846', 27325.55, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2749555846', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2751138468', 24304.55, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2751138468', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2753305298', 25408.85, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2753305298', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2753830398', 22495.42, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2753830398', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2754199982', 26743.51, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2754199982', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2756300705', 29921.05, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2756300705', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2757581879', 27860.44, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2757581879', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2757731090', 17840.57, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2757731090', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2759952834', 18337.54, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2759952834', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2760519256', 8956.69, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2760519256', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2762154633', 24639.69, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2762154633', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2763858592', 4639.23, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2763858592', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2766346456', 12642.11, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2766346456', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2769345926', 5801.49, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2769345926', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2769531204', 29645.19, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2769531204', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2770749175', 9233, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2770749175', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2773005381', 20669.28, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2773005381', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2776102204', 27733.76, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2776102204', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2776640231', 1075.18, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2776640231', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2779898237', 27145.17, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2779898237', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2780735158', 6446.48, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2780735158', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2788028328', 25109.35, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2788028328', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2788380412', 21081.04, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2788380412', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2789229870', 8990.34, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2789229870', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796310813', 2221.8, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796310813', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796767013', 7812.43, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796767013', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796928681', 25200.57, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2796928681', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2800074299', 1237.67, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2800074299', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2801562136', 24502.71, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2801562136', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2808080940', 15549.9, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2808080940', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2808624354', 13371.83, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2808624354', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2809123215', 1613.87, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2809123215', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2813158123', 20305.07, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2813158123', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2826838621', 22046.67, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2826838621', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2826938596', 27030.15, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2826938596', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2827762720', 1397.45, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2827762720', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2830226210', 9227.25, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2830226210', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2830759521', 24188.53, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2830759521', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2831930688', 17105.89, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2831930688', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2832896985', 5314.48, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2832896985', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2839663443', 15817.54, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2839663443', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2840932317', 10666.04, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2840932317', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2843176091', 9576.08, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2843176091', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2845675835', 9214.39, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2845675835', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2860243187', 7411.83, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2860243187', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2861148229', 2145.55, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2861148229', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2861440047', 28793.86, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2861440047', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2868233368', 25981.35, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2868233368', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2869959643', 15897.98, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2869959643', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2872596719', 19400.16, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2872596719', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2874605946', 4374.04, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2874605946', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876222879', 5352.05, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876222879', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876439419', 2705.33, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876439419', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876666271', 26902, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2876666271', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2880018847', 2718.59, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2880018847', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2883180651', 19924.37, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2883180651', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2887957957', 8401.54, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2887957957', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2888976928', 26315.79, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2888976928', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2889052132', 19427.06, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2889052132', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2890983142', 11787.94, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2890983142', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2891721391', 29528.32, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2891721391', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2893081288', 17726.91, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2893081288', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2902321719', 25065.42, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2902321719', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2903090526', 19861.96, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2903090526', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2906913031', 25656.43, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2906913031', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2907534186', 12059.33, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2907534186', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2908096867', 1057.08, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2908096867', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2910335954', 13082.95, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2910335954', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2912110417', 26810.58, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2912110417', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2913183337', 29510.8, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2913183337', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2914061870', 15478.52, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2914061870', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2916594710', 28861.07, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2916594710', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2917816605', 10365.39, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2917816605', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2923072270', 25080.29, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2923072270', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2926673343', 11121.96, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2926673343', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2929270155', 22111.72, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2929270155', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2930088822', 23118.32, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2930088822', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2931159763', 2770.43, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2931159763', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2931663150', 11997.97, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2931663150', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2933454676', 13366.48, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2933454676', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2933720926', 28111, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2933720926', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934326258', 20528.77, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934326258', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934403127', 16679.01, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934403127', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934754731', 22033.31, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934754731', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934819258', 22389.83, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2934819258', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2937219120', 11034.25, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2937219120', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2941330349', 9306.71, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2941330349', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2943239368', 7938.75, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2943239368', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945476857', 15303.91, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945476857', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945599524', 4893.9, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945599524', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945705985', 23412.05, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2945705985', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2947509711', 29987.43, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2947509711', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2948103291', 11667.78, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2948103291', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2950490589', 27500.39, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2950490589', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2950560813', 26349.51, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2950560813', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2951207050', 19892.2, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2951207050', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2952654999', 13812.44, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2952654999', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2955819436', 8175.27, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2955819436', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2955834599', 20306.97, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2955834599', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2957723635', 25088.83, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2957723635', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2957746668', 6566.04, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2957746668', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2960580511', 9518.53, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2960580511', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2963472402', 14508.2, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2963472402', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2966350719', 16348.86, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2966350719', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2968077248', 12813.69, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2968077248', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2968490206', 6842.91, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2968490206', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2969898639', 17082.44, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2969898639', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2970175492', 5990.83, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2970175492', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2972997587', 1973.64, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2972997587', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2974529466', 12390.35, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2974529466', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2977890846', 4250.05, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2977890846', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2979851135', 24486.3, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2979851135', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2982456149', 23190, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2982456149', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2983337533', 2461.57, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2983337533', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2984946486', 13693.27, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2984946486', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2988711805', 20409.71, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2988711805', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989199929', 23082.91, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989199929', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989471411', 23515.4, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989471411', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989942298', 17558.89, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989942298', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989945071', 8998.43, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2989945071', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2991639430', 2644.32, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2991639430', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2991981430', 15924.03, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2991981430', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2992193903', 1153.81, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2992193903', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2994632540', 8372.29, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2994632540', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2995496451', 25682.3, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2995496451', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2999195657', 13228.99, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2999195657', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2999711233', 12331.07, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('2999711233', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3001579334', 21138.88, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3001579334', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3002393598', 14908.66, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3002393598', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3003332818', 29244.46, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3003332818', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3005453477', 6702.41, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3005453477', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3009094017', 5004.46, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3009094017', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3012492005', 12588.59, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3012492005', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3014359832', 23981.58, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3014359832', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3016091476', 24326.56, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3016091476', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3017872765', 1478.96, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3017872765', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3019749003', 10235.89, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3019749003', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3023154335', 25678.67, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3023154335', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3025752432', 18530.51, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3025752432', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3026284666', 5930.58, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3026284666', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036196039', 1613.53, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036196039', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036571370', 9116.23, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036571370', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036991558', 13287.65, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3036991558', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3044349465', 23343.24, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3044349465', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3048327826', 13460.14, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3048327826', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3051066014', 26207.3, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3051066014', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3053182402', 10827.01, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3053182402', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3056381228', 19863.26, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3056381228', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3056777928', 22132.58, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3056777928', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3057160507', 12465.13, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3057160507', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3058792325', 6047.81, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3058792325', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3064873112', 8891.57, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3064873112', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3069281486', 26851.61, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3069281486', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3072147929', 25910.51, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3072147929', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3072148515', 2609.55, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3072148515', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3075352024', 15100.21, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3075352024', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3077616843', 11491.45, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3077616843', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3078396866', 20641.11, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3078396866', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3082199262', 12504.85, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3082199262', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3082463094', 8101.39, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3082463094', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3089915047', 7669.56, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3089915047', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3090754934', 23007.17, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3090754934', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3091778989', 2667.43, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3091778989', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3093080715', 1347, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3093080715', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3107414589', 2533.17, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3107414589', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3107425624', 22942.43, 6);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3107425624', 6);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3109245068', 11097.49, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3109245068', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3113498019', 14453.08, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3113498019', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3113915504', 13941.07, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3113915504', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3115895897', 29990.14, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3115895897', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3118369023', 2426.19, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3118369023', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3118793059', 4260.44, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3118793059', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3120067805', 9800.81, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3120067805', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3122805763', 23584.57, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3122805763', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3122839507', 5896.46, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3122839507', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123015069', 11137.48, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123015069', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123697891', 8957.94, 7);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123697891', 7);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123854395', 1085.48, 8);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3123854395', 8);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3127870106', 6668.57, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3127870106', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3129374615', 25380.83, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3129374615', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3130137749', 2591.83, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3130137749', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3131573697', 11068.74, 9);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3131573697', 9);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3131628988', 2197.18, 5);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3131628988', 5);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3133876544', 18649.05, 1);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3133876544', 1);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3138408817', 29692.55, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3138408817', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3141974858', 1540.7, 3);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3141974858', 3);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3142193510', 15083.05, 2);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3142193510', 2);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3143002011', 6851.86, 10);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3143002011', 10);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3143071442', 7943.86, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3143071442', 4);
 
-INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3144017318', 25822.16, 4);
+INSERT INTO 顾客 (身份证号, 旅游团_id) VALUES ('3144017318', 4);
 
 INSERT INTO 旅游线路 (id, 总公司_id) VALUES (1, 1);
 
@@ -6120,7 +6120,6 @@ INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('The Palace Museum', 1);
 
 INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('Tian Sha', 9);
 
-
 INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 旅游线路_id)
 VALUES
     ('April', 4700, 'Bus', 3, 4),
@@ -6154,24 +6153,40 @@ VALUES
     ('October', 4350, 'airplane', 3, 10),
     ('September', 8050, 'Boat', 5, 9);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id)
-VALUES
-    (1, '1035555550', '3', 1, 1),
-    (2, '1036217391', '4', 1, 1),
-    (3, '1038853989', '3', 2, 2),
-    (4, '1039800029', '3', 2, 2),
-    (5, '1040254104', '5', 3, 3),
-    (6, '1041450877', '5', 3, 3),
-    (7, '1041736492', '4', 4, 4),
-    (9, '1043694265', '3', 4, 4),
-    (10, '1045084079', '4', 5, 5),
-    (11, '1046303673', '3', 5, 5),
-    (12, '1046925037', '5', 6, 6),
-    (13, '1048125202', '5', 6, 6),
-    (14, '1049225981', '3', 7, 7),
-    (15, '1051317239', '5', 7, 7),
-    (16, '1054413360', '3', 8, 8),
-    (17, '1058707520', '3', 8, 8),
-    (18, '1062174013', '4', 9, 9),
-    (19, '1063782783', '5', 9, 9),
-    (20, '1066392595', '3', 10, 10);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (1, '1035555550', '3', 1);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (2, '1036217391', '4', 1);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (3, '1038853989', '3', 2);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (4, '1039800029', '3', 2);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (5, '1040254104', '5', 3);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (6, '1041450877', '5', 3);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (7, '1041736492', '4', 4);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (9, '1043694265', '3', 4);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (10, '1045084079', '4', 5);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (11, '1046303673', '3', 5);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (12, '1046925037', '5', 6);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (13, '1048125202', '5', 6);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (14, '1049225981', '3', 7);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (15, '1051317239', '5', 7);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (16, '1054413360', '3', 8);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (17, '1058707520', '3', 8);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (18, '1062174013', '4', 9);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (19, '1063782783', '5', 9);
+
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (20, '1066392595', '3', 10);

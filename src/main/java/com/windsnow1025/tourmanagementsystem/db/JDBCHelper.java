@@ -119,7 +119,6 @@ public class JDBCHelper extends DatabaseHelper {
                     价格 FLOAT NOT NULL,
                     交通方式 VARCHAR(255) NOT NULL,
                     服务等级 VARCHAR(255) NOT NULL,
-                    收入信息 FLOAT NOT NULL,
                     旅游线路_id INT NOT NULL,
                     PRIMARY KEY (旅游时间段, 旅游线路_id),
                     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
@@ -159,7 +158,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.2.2";
+            dbVersion = "1.2.3";
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Database config failed", e);
         }

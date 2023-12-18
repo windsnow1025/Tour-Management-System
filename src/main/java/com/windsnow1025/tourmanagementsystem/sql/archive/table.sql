@@ -87,6 +87,17 @@ CREATE TABLE 旅游信息
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
 );
 
+CREATE TABLE 旅游时间段
+(
+    旅游时间段  VARCHAR(255) NOT NULL,
+    价格        FLOAT        NOT NULL,
+    交通方式    VARCHAR(255) NOT NULL,
+    服务等级    VARCHAR(255) NOT NULL,
+    旅游线路_id INT          NOT NULL,
+    PRIMARY KEY (旅游时间段, 旅游线路_id),
+    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
+);
+
 CREATE TABLE 地点
 (
     地点        VARCHAR(255) NOT NULL,
@@ -100,16 +111,5 @@ CREATE TABLE 景点
     景点        VARCHAR(255) NOT NULL,
     旅游线路_id INT          NOT NULL,
     PRIMARY KEY (景点, 旅游线路_id),
-    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-);
-
-CREATE TABLE 旅游时间段
-(
-    旅游时间段  VARCHAR(255) NOT NULL,
-    价格        FLOAT        NOT NULL,
-    交通方式    VARCHAR(255) NOT NULL,
-    服务等级    VARCHAR(255) NOT NULL,
-    旅游线路_id INT          NOT NULL,
-    PRIMARY KEY (旅游时间段, 旅游线路_id),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
 );

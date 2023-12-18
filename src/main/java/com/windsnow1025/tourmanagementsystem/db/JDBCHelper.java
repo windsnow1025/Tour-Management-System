@@ -93,38 +93,6 @@ public class JDBCHelper extends DatabaseHelper {
                 );
             """;
 
-    private static final String CREATE_TABLE_旅游信息 = """
-                CREATE TABLE IF NOT EXISTS 旅游信息
-                (
-                    id INT NOT NULL AUTO_INCREMENT,
-                    旅游时间 VARCHAR(255) NOT NULL,
-                    旅游费用 FLOAT NOT NULL,
-                    保险 VARCHAR(255) NOT NULL,
-                    服务等级 VARCHAR(255) NOT NULL,
-                    旅游合同 BLOB,
-                    旅游团_id INT NOT NULL,
-                    顾客_身份证号 VARCHAR(255) NOT NULL,
-                    旅游线路_id INT NOT NULL,
-                    PRIMARY KEY (id),
-                    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
-                    FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号),
-                    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                );
-            """;
-
-    private static final String CREATE_TABLE_旅游时间段 = """
-                CREATE TABLE IF NOT EXISTS 旅游时间段
-                (
-                    旅游时间段 VARCHAR(255) NOT NULL,
-                    价格 FLOAT NOT NULL,
-                    交通方式 VARCHAR(255) NOT NULL,
-                    服务等级 VARCHAR(255) NOT NULL,
-                    旅游线路_id INT NOT NULL,
-                    PRIMARY KEY (旅游时间段, 旅游线路_id),
-                    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-                );
-            """;
-
     private static final String CREATE_TABLE_地点 = """
                 CREATE TABLE IF NOT EXISTS 地点
                 (
@@ -145,6 +113,47 @@ public class JDBCHelper extends DatabaseHelper {
                 );
             """;
 
+    private static final String CREATE_TABLE_旅游时间段 = """
+                CREATE TABLE IF NOT EXISTS 旅游时间段
+                (
+                    时间段 VARCHAR(255) NOT NULL,
+                    价格 FLOAT NOT NULL,
+                    交通方式 VARCHAR(255) NOT NULL,
+                    服务等级 VARCHAR(255) NOT NULL,
+                    PRIMARY KEY (时间段)
+                );
+            """;
+
+    private static final String CREATE_TABLE_旅游信息 = """
+                CREATE TABLE IF NOT EXISTS 旅游信息
+                (
+                    id INT NOT NULL AUTO_INCREMENT,
+                    旅游时间 VARCHAR(255) NOT NULL,
+                    旅游费用 FLOAT NOT NULL,
+                    保险 VARCHAR(255) NOT NULL,
+                    服务等级 VARCHAR(255) NOT NULL,
+                    旅游合同 JSON,
+                    旅游团_id INT NOT NULL,
+                    顾客_身份证号 VARCHAR(255) NOT NULL,
+                    PRIMARY KEY (id),
+                    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
+                    FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号)
+                );
+            """;
+
+    private static final String CREATE_TABLE_旅游线路_旅游时间段_旅游信息 = """
+                CREATE TABLE 旅游线路_旅游时间段_旅游信息
+                (
+                    旅游线路_id INT NOT NULL,
+                    旅游时间段_时间段 VARCHAR(255) NOT NULL,
+                    旅游信息_id INT NOT NULL,
+                    PRIMARY KEY (旅游线路_id, 旅游时间段_时间段),
+                    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id),
+                    FOREIGN KEY (旅游时间段_时间段) REFERENCES 旅游时间段 (时间段)
+                );
+            """;
+
+
     public JDBCHelper() {
         super();
     }
@@ -158,7 +167,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.2.3";
+            dbVersion = "1.3.0";
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Database config failed", e);
         }
@@ -175,10 +184,11 @@ public class JDBCHelper extends DatabaseHelper {
             statement.executeUpdate(CREATE_TABLE_导游员工);
             statement.executeUpdate(CREATE_TABLE_顾客);
             statement.executeUpdate(CREATE_TABLE_旅游线路);
-            statement.executeUpdate(CREATE_TABLE_旅游信息);
-            statement.executeUpdate(CREATE_TABLE_旅游时间段);
             statement.executeUpdate(CREATE_TABLE_地点);
             statement.executeUpdate(CREATE_TABLE_景点);
+            statement.executeUpdate(CREATE_TABLE_旅游时间段);
+            statement.executeUpdate(CREATE_TABLE_旅游信息);
+            statement.executeUpdate(CREATE_TABLE_旅游线路_旅游时间段_旅游信息);
         }
 
         createMetadata();
@@ -191,10 +201,11 @@ public class JDBCHelper extends DatabaseHelper {
         try (Statement statement = getConnection().createStatement()) {
             // Drop all
             statement.executeUpdate("DROP TABLE IF EXISTS metadata");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路_旅游时间段_旅游信息");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游信息");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 景点");
             statement.executeUpdate("DROP TABLE IF EXISTS 地点");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路");
             statement.executeUpdate("DROP TABLE IF EXISTS 顾客");
             statement.executeUpdate("DROP TABLE IF EXISTS 导游员工");

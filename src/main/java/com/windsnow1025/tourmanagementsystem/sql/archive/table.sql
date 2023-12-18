@@ -68,34 +68,6 @@ CREATE TABLE 旅游线路
     PRIMARY KEY (id)
 );
 
-CREATE TABLE 旅游信息
-(
-    id            INT          NOT NULL AUTO_INCREMENT,
-    旅游时间      VARCHAR(255) NOT NULL,
-    旅游费用      FLOAT        NOT NULL,
-    保险          VARCHAR(255) NOT NULL,
-    服务等级      VARCHAR(255) NOT NULL,
-    旅游合同      JSON,
-    旅游团_id     INT          NOT NULL,
-    顾客_身份证号 VARCHAR(255) NOT NULL,
-    旅游线路_id   INT          NOT NULL,
-    PRIMARY KEY (id),
-    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
-    FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号),
-    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-);
-
-CREATE TABLE 旅游时间段
-(
-    旅游时间段  VARCHAR(255) NOT NULL,
-    价格        FLOAT        NOT NULL,
-    交通方式    VARCHAR(255) NOT NULL,
-    服务等级    VARCHAR(255) NOT NULL,
-    旅游线路_id INT          NOT NULL,
-    PRIMARY KEY (旅游时间段, 旅游线路_id),
-    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
-);
-
 CREATE TABLE 地点
 (
     地点        VARCHAR(255) NOT NULL,
@@ -110,4 +82,38 @@ CREATE TABLE 景点
     旅游线路_id INT          NOT NULL,
     PRIMARY KEY (景点, 旅游线路_id),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id)
+);
+
+CREATE TABLE 旅游时间段
+(
+    时间段   VARCHAR(255) NOT NULL,
+    价格     FLOAT        NOT NULL,
+    交通方式 VARCHAR(255) NOT NULL,
+    服务等级 VARCHAR(255) NOT NULL,
+    PRIMARY KEY (时间段)
+);
+
+CREATE TABLE 旅游信息
+(
+    id            INT          NOT NULL AUTO_INCREMENT,
+    旅游时间      VARCHAR(255) NOT NULL,
+    旅游费用      FLOAT        NOT NULL,
+    保险          VARCHAR(255) NOT NULL,
+    服务等级      VARCHAR(255) NOT NULL,
+    旅游合同      JSON,
+    旅游团_id     INT          NOT NULL,
+    顾客_身份证号 VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id),
+    FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号)
+);
+
+CREATE TABLE 旅游线路_旅游时间段_旅游信息
+(
+    旅游线路_id           INT          NOT NULL,
+    旅游时间段_时间段 VARCHAR(255) NOT NULL,
+    旅游信息_id           INT          NOT NULL,
+    PRIMARY KEY (旅游线路_id, 旅游时间段_时间段),
+    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id),
+    FOREIGN KEY (旅游时间段_时间段) REFERENCES 旅游时间段 (时间段)
 );

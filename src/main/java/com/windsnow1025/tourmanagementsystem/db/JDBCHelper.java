@@ -4,6 +4,7 @@ import org.json.JSONObject;
 
 import java.io.*;
 import java.sql.*;
+import java.util.logging.Level;
 
 public class JDBCHelper extends DatabaseHelper {
     private static final String CREATE_TABLE_总公司 = """
@@ -160,7 +161,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
             dbVersion = "1.2.2";
         } catch (IOException e) {
-            logger.log(java.util.logging.Level.SEVERE, "Database config failed", e);
+            logger.log(Level.SEVERE, "Database config failed", e);
         }
     }
 
@@ -183,7 +184,7 @@ public class JDBCHelper extends DatabaseHelper {
 
         createMetadata();
         insertVersion();
-        logger.log(java.util.logging.Level.INFO, "Database created");
+        logger.log(Level.INFO, "Database created");
     }
 
     @Override
@@ -191,14 +192,14 @@ public class JDBCHelper extends DatabaseHelper {
         try (Statement statement = getConnection().createStatement()) {
             // Drop all
             statement.executeUpdate("DROP TABLE IF EXISTS metadata");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 景点");
             statement.executeUpdate("DROP TABLE IF EXISTS 地点");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游时间段");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路");
             statement.executeUpdate("DROP TABLE IF EXISTS 顾客");
-            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
             statement.executeUpdate("DROP TABLE IF EXISTS 导游员工");
+            statement.executeUpdate("DROP TABLE IF EXISTS 旅游团");
             statement.executeUpdate("DROP TABLE IF EXISTS 经理");
             statement.executeUpdate("DROP TABLE IF EXISTS 身份信息");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游分公司");
@@ -207,6 +208,6 @@ public class JDBCHelper extends DatabaseHelper {
 
         onCreate();
         updateVersion();
-        logger.log(java.util.logging.Level.INFO, "Database upgraded");
+        logger.log(Level.INFO, "Database upgraded");
     }
 }

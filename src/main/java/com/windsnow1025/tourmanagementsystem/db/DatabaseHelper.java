@@ -6,6 +6,7 @@ import com.zaxxer.hikari.HikariDataSource;
 import java.sql.*;
 import java.util.*;
 import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public abstract class DatabaseHelper {
     protected static final Logger logger = Logger.getLogger(DatabaseHelper.class.getName());
@@ -17,6 +18,7 @@ public abstract class DatabaseHelper {
     protected static String dbVersion;
 
     public DatabaseHelper() {
+        logger.log(Level.INFO, "DatabaseHelper constructor");
         try {
             setDatabaseConfig();
 
@@ -36,7 +38,7 @@ public abstract class DatabaseHelper {
                 onUpgrade();
             }
         } catch (SQLException e) {
-            logger.log(java.util.logging.Level.SEVERE, "Database config failed", e);
+            logger.log(Level.SEVERE, "Database config failed", e);
         }
     }
 
@@ -69,13 +71,13 @@ public abstract class DatabaseHelper {
     protected void onCreate() throws SQLException {
         createMetadata();
         insertVersion();
-        logger.log(java.util.logging.Level.INFO, "Database created");
+        logger.log(Level.INFO, "Database created");
     }
 
     // To be overridden
     protected void onUpgrade() throws SQLException {
         updateVersion();
-        logger.log(java.util.logging.Level.INFO, "Database upgraded");
+        logger.log(Level.INFO, "Database upgraded");
     }
 
     protected void createMetadata() throws SQLException {
@@ -106,7 +108,7 @@ public abstract class DatabaseHelper {
                 return null;
             }
         } catch (SQLException e) {
-            logger.log(java.util.logging.Level.SEVERE, "Select version failed", e);
+            logger.log(Level.SEVERE, "Select version failed", e);
             return null;
         }
     }

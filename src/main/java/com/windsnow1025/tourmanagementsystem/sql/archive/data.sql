@@ -6120,7 +6120,6 @@ INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('The Palace Museum', 1);
 
 INSERT INTO 景点 (景点, 旅游线路_id) VALUES ('Tian Sha', 9);
 
-
 INSERT INTO 旅游时间段 (旅游时间段, 价格, 交通方式, 服务等级, 旅游线路_id)
 VALUES
     ('April', 4700, 'Bus', 3, 4),
@@ -6154,40 +6153,40 @@ VALUES
     ('October', 4350, 'airplane', 3, 10),
     ('September', 8050, 'Boat', 5, 9);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (1, '3', 12589, 1, 1);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (1, '3', 12589, 1);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (2, '4', 17888, 1, 1);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (2, '4', 17888, 1);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (3, '3', 15785, 2, 2);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (3, '3', 15785, 2);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (4, '3', 13242, 2, 2);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (4, '3', 13242, 2);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (5, '5', 24255, 3, 3);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (5, '5', 24255, 3);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (6, '5', 25688, 3, 3);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (6, '5', 25688, 3);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (7, '4', 19898, 4, 4);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (7, '4', 19898, 4);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (9, '3', 12144, 4, 4);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (9, '3', 12144, 4);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (10, '4', 17872, 5, 5);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (10, '4', 17872, 5);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (11, '3', 12345, 5, 5);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (11, '3', 12345, 5);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (12, '5', 24345, 6, 6);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (12, '5', 24345, 6);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (13, '5', 25454, 6, 6);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (13, '5', 25454, 6);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (14, '3', 14232, 7, 7);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (14, '3', 14232, 7);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (15, '5', 24354, 7, 7);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (15, '5', 24354, 7);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (16, '3', 11122, 8, 8);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (16, '3', 11122, 8);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (17, '3', 10232, 8, 8);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (17, '3', 10232, 8);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (18, '4', 18858, 9, 9);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (18, '4', 18858, 9);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (19, '5', 23222, 9, 9);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (19, '5', 23222, 9);
 
-INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 分公司_id, 旅游团_id) VALUES (20, '3', 10214, 10, 10);
+INSERT INTO 导游员工 (导游号, 身份证号, 导游资格等级, 旅游团_id) VALUES (20, '3', 10214, 10);

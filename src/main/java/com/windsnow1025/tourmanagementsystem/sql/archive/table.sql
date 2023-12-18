@@ -99,7 +99,6 @@ CREATE TABLE 旅游信息
     旅游时间      VARCHAR(255) NOT NULL,
     旅游费用      FLOAT        NOT NULL,
     保险          VARCHAR(255) NOT NULL,
-    服务等级      VARCHAR(255) NOT NULL,
     旅游合同      JSON,
     旅游团_id     INT          NOT NULL,
     顾客_身份证号 VARCHAR(255) NOT NULL,

@@ -2,14 +2,13 @@ package com.windsnow1025.tourmanagementsystem.db;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.util.*;
+import java.util.logging.Logger;
 
 public abstract class DatabaseHelper {
-    protected static final Logger logger = LoggerFactory.getLogger(DatabaseHelper.class);
+    protected static final Logger logger = Logger.getLogger(DatabaseHelper.class.getName());
     protected static HikariDataSource dataSource;
     protected static String dbUrl;
     protected static String dbUsername;
@@ -37,7 +36,7 @@ public abstract class DatabaseHelper {
                 onUpgrade();
             }
         } catch (SQLException e) {
-            logger.error("Database connection failed", e);
+            logger.log(java.util.logging.Level.SEVERE, "Database config failed", e);
         }
     }
 
@@ -70,13 +69,13 @@ public abstract class DatabaseHelper {
     protected void onCreate() throws SQLException {
         createMetadata();
         insertVersion();
-        logger.info("Database created");
+        logger.log(java.util.logging.Level.INFO, "Database created");
     }
 
     // To be overridden
     protected void onUpgrade() throws SQLException {
         updateVersion();
-        logger.info("Database upgraded");
+        logger.log(java.util.logging.Level.INFO, "Database upgraded");
     }
 
     protected void createMetadata() throws SQLException {
@@ -107,7 +106,7 @@ public abstract class DatabaseHelper {
                 return null;
             }
         } catch (SQLException e) {
-            logger.error("Error selecting version", e);
+            logger.log(java.util.logging.Level.SEVERE, "Select version failed", e);
             return null;
         }
     }

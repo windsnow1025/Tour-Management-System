@@ -158,9 +158,9 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.2.1";
+            dbVersion = "1.2.2";
         } catch (IOException e) {
-            logger.error("Database config failed", e);
+            logger.log(java.util.logging.Level.SEVERE, "Database config failed", e);
         }
     }
 
@@ -183,7 +183,7 @@ public class JDBCHelper extends DatabaseHelper {
 
         createMetadata();
         insertVersion();
-        logger.info("Database created");
+        logger.log(java.util.logging.Level.INFO, "Database created");
     }
 
     @Override
@@ -207,6 +207,6 @@ public class JDBCHelper extends DatabaseHelper {
 
         onCreate();
         updateVersion();
-        logger.info("Database upgraded");
+        logger.log(java.util.logging.Level.INFO, "Database upgraded");
     }
 }

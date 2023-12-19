@@ -29,7 +29,7 @@ CREATE TABLE 经理
     身份证号  VARCHAR(255) NOT NULL,
     分公司_id INT          NOT NULL,
     PRIMARY KEY (经理号),
-    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON UPDATE CASCADE,
+    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON DELETE CASCADE,
     FOREIGN KEY (分公司_id) REFERENCES 旅游分公司 (id) ON DELETE CASCADE
 );
 

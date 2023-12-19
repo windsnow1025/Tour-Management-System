@@ -86,7 +86,7 @@ CREATE TABLE 景点
 
 CREATE TABLE 旅游时间段
 (
-    id       INT          NOT NULL,
+    id       INT          NOT NULL AUTO_INCREMENT,
     时间段   VARCHAR(255) NOT NULL,
     价格     FLOAT        NOT NULL,
     交通方式 VARCHAR(255) NOT NULL,

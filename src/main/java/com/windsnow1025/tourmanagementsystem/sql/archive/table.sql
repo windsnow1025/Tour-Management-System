@@ -71,7 +71,7 @@ CREATE TABLE 旅游线路
 CREATE TABLE 地点
 (
     地点        VARCHAR(255) NOT NULL,
-    旅游线路_id INT          ,
+    旅游线路_id INT,
     PRIMARY KEY (地点, 旅游线路_id),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE SET NULL
 );
@@ -79,7 +79,7 @@ CREATE TABLE 地点
 CREATE TABLE 景点
 (
     景点        VARCHAR(255) NOT NULL,
-    旅游线路_id INT          ,
+    旅游线路_id INT,
     PRIMARY KEY (景点, 旅游线路_id),
     FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE SET NULL
 );
@@ -104,7 +104,7 @@ CREATE TABLE 旅游信息
     旅游团_id     INT          NOT NULL,
     顾客_身份证号 VARCHAR(255) NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id) ON DELETE CASCADE ,
+    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id) ON DELETE CASCADE,
     FOREIGN KEY (顾客_身份证号) REFERENCES 顾客 (身份证号) ON UPDATE CASCADE
 );
 

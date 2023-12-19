@@ -31,7 +31,7 @@ BEGIN
            )
     INTO 旅游合同信息
     FROM 旅游信息视图
-    WHERE 信息ID = NEW.旅游信息_id;
+    WHERE 旅游信息_id = NEW.旅游信息_id;
 
     UPDATE 旅游信息
     SET 旅游合同 = 旅游合同信息

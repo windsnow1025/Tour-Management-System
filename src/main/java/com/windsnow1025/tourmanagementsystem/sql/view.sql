@@ -1,5 +1,5 @@
 CREATE VIEW 旅游线路视图 AS
-SELECT 旅游线路.id AS 线路ID,
+SELECT 旅游线路.id AS 旅游线路_id,
        GROUP_CONCAT(DISTINCT 地点.地点) AS 地点,
        GROUP_CONCAT(DISTINCT 景点.景点) AS 景点
 FROM 旅游线路
@@ -9,7 +9,7 @@ GROUP BY 旅游线路.id;
 
 
 CREATE VIEW 旅游信息视图 AS
-SELECT 旅游信息.id AS 信息ID,
+SELECT 旅游信息.id AS 旅游信息_id,
        旅游信息.旅游时间,
        旅游信息.旅游费用,
        旅游信息.保险,
@@ -24,12 +24,12 @@ SELECT 旅游信息.id AS 信息ID,
        旅游时间段.服务等级
 FROM 旅游信息
          JOIN 旅游线路_旅游时间段_旅游信息 ON 旅游信息.id = 旅游线路_旅游时间段_旅游信息.旅游信息_id
-         JOIN 旅游线路视图 ON 旅游线路_旅游时间段_旅游信息.旅游线路_id = 旅游线路视图.线路ID
+         JOIN 旅游线路视图 ON 旅游线路_旅游时间段_旅游信息.旅游线路_id = 旅游线路视图.旅游线路_id
          JOIN 旅游时间段 ON 旅游线路_旅游时间段_旅游信息.旅游时间段_id = 旅游时间段.id;
 
 
 CREATE VIEW 旅游线路收入视图 AS
-SELECT 旅游线路.id            AS 线路ID,
+SELECT 旅游线路.id            AS 旅游线路_id,
        地点.地点,
        景点.景点,
        SUM(旅游信息.旅游费用) AS 总收入

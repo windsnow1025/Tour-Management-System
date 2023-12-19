@@ -55,7 +55,7 @@ SELECT 导游员工.身份证号,
 FROM 导游员工
          JOIN 旅游团 ON 导游员工.旅游团_id = 旅游团.id
          JOIN 旅游信息 ON 旅游团.id = 旅游信息.旅游团_id
-GROUP BY 导游员工.身份证号;
+GROUP BY 导游员工.身份证号, 旅游团.id;
 
 
 CREATE VIEW 分公司业绩视图 AS
@@ -65,4 +65,4 @@ SELECT 旅游分公司.id,
 FROM 旅游分公司
          JOIN 旅游团 ON 旅游分公司.id = 旅游团.分公司_id
          JOIN 导游业绩视图 ON 旅游团.id = 导游业绩视图.旅游团_id
-GROUP BY 旅游分公司.id;
+GROUP BY 旅游分公司.id, 旅游分公司.分公司名;

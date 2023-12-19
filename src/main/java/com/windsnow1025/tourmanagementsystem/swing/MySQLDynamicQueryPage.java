@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class MySQLDynamicQueryPage extends JFrame {
     private JTextField[] inputFields;
-    private JButton addButton, deleteButton, updateButton, searchButton,returnButton;
+    private JButton addButton, deleteButton, updateButton, searchButton,returnButton,viewTableButton;
     private JTextArea resultArea;
     String tableName;
 
@@ -15,12 +15,14 @@ public class MySQLDynamicQueryPage extends JFrame {
 
     public MySQLDynamicQueryPage(String selectedTable) {
         setTitle("MySQL Dynamic Query Page");
-        setSize(400, 300);
+        setSize(500, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JPanel inputPanel = new JPanel(new GridLayout(5, 2));
-        tableName = selectedTable;
+        JPanel inputPanel = new JPanel(new GridLayout(0, 2));
+        inputPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
+        tableName = selectedTable;
+        ArrayList<String> columnNames = new ArrayList<>();
 
         try (Connection connection = MyConnection.getConnection()) {
             DatabaseMetaData metaData = connection.getMetaData();
@@ -46,32 +48,44 @@ public class MySQLDynamicQueryPage extends JFrame {
         }
 
         addButton = new JButton("Add");
-        addButton.addActionListener(e -> addRecord());
         deleteButton = new JButton("Delete");
-        deleteButton.addActionListener(e -> deleteRecord());
         updateButton = new JButton("Update");
-        updateButton.addActionListener(e -> updateRecord());
         searchButton = new JButton("Search");
-        searchButton.addActionListener(e -> searchRecord());
-
-        inputPanel.add(addButton);
-        inputPanel.add(deleteButton);
-        inputPanel.add(updateButton);
-        inputPanel.add(searchButton);
-
-        resultArea = new JTextArea();
-        resultArea.setEditable(false);
-
-        add(inputPanel, BorderLayout.NORTH);
-        add(new JScrollPane(resultArea), BorderLayout.CENTER);
-        // 创建返回按钮
         returnButton = new JButton("Return");
+
+        addButton.addActionListener(e -> addRecord());
+        deleteButton.addActionListener(e -> deleteRecord());
+        updateButton.addActionListener(e -> updateRecord());
+        searchButton.addActionListener(e -> searchRecord());
         returnButton.addActionListener(e -> {
             TableSelectionPage tableSelectionPage = new TableSelectionPage();
             tableSelectionPage.setVisible(true);
             dispose(); // 关闭当前页面
         });
-        inputPanel.add(returnButton); // 将返回按钮添加到界面中
+
+        // 创建查看表按钮
+        viewTableButton = new JButton("View");
+        viewTableButton.addActionListener(e -> {
+            ViewDisplayPage tableDisplayPage = new ViewDisplayPage(selectedTable);
+            tableDisplayPage.setVisible(true);
+        });
+        inputPanel.add(viewTableButton); // 将查看表按钮添加到界面中
+
+        JPanel buttonPanel = new JPanel(new GridLayout(1, 4, 5, 5));
+        buttonPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        buttonPanel.add(viewTableButton);
+        buttonPanel.add(addButton);
+        buttonPanel.add(deleteButton);
+        buttonPanel.add(updateButton);
+        buttonPanel.add(searchButton);
+
+        resultArea = new JTextArea();
+        JScrollPane scrollPane = new JScrollPane(resultArea);
+
+        add(inputPanel, BorderLayout.NORTH);
+        add(buttonPanel, BorderLayout.CENTER);
+        add(scrollPane, BorderLayout.SOUTH);
+        add(returnButton, BorderLayout.SOUTH);
     }
 
     private void addRecord() {

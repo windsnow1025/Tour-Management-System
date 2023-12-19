@@ -1,16 +1,9 @@
 CREATE TRIGGER 旅游费用_before_insert_旅游线路_旅游时间段_旅游信息
-    BEFORE INSERT
-    ON 旅游线路_旅游时间段_旅游信息
+    BEFORE INSERT ON 旅游线路_旅游时间段_旅游信息
     FOR EACH ROW
 BEGIN
-    DECLARE 价格 FLOAT;
-
-    SELECT 价格 INTO 价格
-    FROM 旅游时间段
-    WHERE id = NEW.旅游时间段_id;
-
     UPDATE 旅游信息
-    SET 旅游费用 = 价格
+    SET 旅游费用 = (SELECT 价格 FROM 旅游时间段 WHERE id = NEW.旅游时间段_id)
     WHERE id = NEW.旅游信息_id;
 END;
 

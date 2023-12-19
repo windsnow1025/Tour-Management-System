@@ -1,10 +1,11 @@
 CREATE VIEW 旅游线路视图 AS
 SELECT 旅游线路.id AS 线路ID,
-       地点.地点,
-       景点.景点
+       GROUP_CONCAT(DISTINCT 地点.地点) AS 地点,
+       GROUP_CONCAT(DISTINCT 景点.景点) AS 景点
 FROM 旅游线路
          JOIN 地点 ON 旅游线路.id = 地点.旅游线路_id
-         JOIN 景点 ON 旅游线路.id = 景点.旅游线路_id;
+         JOIN 景点 ON 旅游线路.id = 景点.旅游线路_id
+GROUP BY 旅游线路.id;
 
 
 CREATE VIEW 旅游信息视图 AS

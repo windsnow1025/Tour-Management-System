@@ -2079,7 +2079,7 @@ VALUES (1),
 
 INSERT INTO 地点 (地点, 旅游线路_id)
 VALUES ('BeiJing', 1),
-        ('BeiJing', 2),
+       ('BeiJing', 2),
        ('ShangHai', 2),
        ('ShangHai', 3),
        ('GuangZhou', 3),

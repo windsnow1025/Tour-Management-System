@@ -10,6 +10,10 @@
 }
 ```
 
+## Create Order
+
+Table -> View -> Trigger -> Data
+
 ## Backup
 
 docker exec -i docker-compose-learn-learn-mysql-1 /usr/bin/mysqldump -u root --password='learn_mysql_password' -h docker-compose-learn-learn-mysql-1 tour | Set-Content C:\Users\windsnow1024\Downloads\backup.sql

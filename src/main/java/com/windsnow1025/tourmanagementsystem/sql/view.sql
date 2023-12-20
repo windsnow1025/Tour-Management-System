@@ -1,5 +1,5 @@
 CREATE VIEW 旅游线路视图 AS
-SELECT 旅游线路.id AS 旅游线路_id,
+SELECT 旅游线路.id                      AS 旅游线路_id,
        GROUP_CONCAT(DISTINCT 地点.地点) AS 地点,
        GROUP_CONCAT(DISTINCT 景点.景点) AS 景点
 FROM 旅游线路
@@ -66,3 +66,13 @@ FROM 旅游分公司
          JOIN 旅游团 ON 旅游分公司.id = 旅游团.分公司_id
          JOIN 导游业绩视图 ON 旅游团.id = 导游业绩视图.旅游团_id
 GROUP BY 旅游分公司.id, 旅游分公司.分公司名;
+
+
+CREATE VIEW 总公司业绩试图 AS
+SELECT 总公司.id,
+       总公司.总公司名,
+       SUM(分公司业绩视图.总业绩) AS 总业绩
+FROM 总公司
+         JOIN 旅游分公司 ON 总公司.id = 旅游分公司.总公司_id
+         JOIN 分公司业绩视图 ON 旅游分公司.id = 分公司业绩视图.id
+GROUP BY 总公司.id, 总公司.总公司名;

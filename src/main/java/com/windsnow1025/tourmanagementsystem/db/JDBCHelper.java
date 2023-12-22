@@ -176,7 +176,8 @@ public class JDBCHelper extends DatabaseHelper {
 
     @Override
     public void onCreate() throws SQLException {
-        try (Statement statement = getConnection().createStatement()) {
+        try (Connection connection = getConnection();
+             Statement statement = connection.createStatement()) {
             statement.executeUpdate(CREATE_TABLE_总公司);
             statement.executeUpdate(CREATE_TABLE_旅游分公司);
             statement.executeUpdate(CREATE_TABLE_身份信息);
@@ -199,7 +200,8 @@ public class JDBCHelper extends DatabaseHelper {
 
     @Override
     public void onUpgrade() throws SQLException {
-        try (Statement statement = getConnection().createStatement()) {
+        try (Connection connection = getConnection();
+             Statement statement = connection.createStatement()) {
             // Drop all
             statement.executeUpdate("DROP TABLE IF EXISTS metadata");
             statement.executeUpdate("DROP TABLE IF EXISTS 旅游线路_旅游时间段_旅游信息");

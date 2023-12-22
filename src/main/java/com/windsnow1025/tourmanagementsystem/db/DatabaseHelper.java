@@ -87,14 +87,16 @@ public abstract class DatabaseHelper {
                     version VARCHAR(255)
                 );
                 """;
-        try (Statement statement = getConnection().createStatement()) {
+        try (Connection connection = getConnection();
+             Statement statement = connection.createStatement()) {
             statement.executeUpdate(CREATE_METADATA);
         }
     }
 
     protected void dropMetadata() throws SQLException {
         final String DROP_METADATA = "DROP TABLE IF EXISTS metadata";
-        try (Statement statement = getConnection().createStatement()) {
+        try (Connection connection = getConnection();
+             Statement statement = connection.createStatement()) {
             statement.executeUpdate(DROP_METADATA);
         }
     }

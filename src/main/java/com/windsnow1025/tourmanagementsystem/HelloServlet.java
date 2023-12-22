@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
 
     public void init() {
         message = "Hello World!";
-        JDBCHelper jdbcHelper = new JDBCHelper();
+        JDBCHelper jdbcHelper = JDBCHelper.getInstance();
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

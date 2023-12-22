@@ -18,13 +18,11 @@ public abstract class DatabaseHelper {
     protected static String dbVersion;
 
     public DatabaseHelper() {
-        logger.log(Level.INFO, "DatabaseHelper constructor");
         try {
             setDatabaseConfig();
 
             // Data source
             HikariConfig config = new HikariConfig();
-            config.setMaximumPoolSize(1); // 根据需要调整最大连接数
             config.setJdbcUrl(dbUrl);
             config.setUsername(dbUsername);
             config.setPassword(dbPassword);

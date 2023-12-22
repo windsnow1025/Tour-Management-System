@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class MyConnection {
     public static Connection getConnection() throws SQLException {
-        JDBCHelper jdbcHelper = new JDBCHelper();
+        JDBCHelper jdbcHelper = JDBCHelper.getInstance();
         return jdbcHelper.getConnection();
     }
 

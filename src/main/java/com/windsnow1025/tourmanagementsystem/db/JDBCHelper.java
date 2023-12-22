@@ -155,8 +155,17 @@ public class JDBCHelper extends DatabaseHelper {
             """;
 
 
+    private static JDBCHelper instance;
+
     public JDBCHelper() {
         super();
+    }
+
+    public static synchronized JDBCHelper getInstance() {
+        if (instance == null) {
+            instance = new JDBCHelper();
+        }
+        return instance;
     }
 
     @Override

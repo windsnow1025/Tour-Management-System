@@ -109,7 +109,6 @@ public abstract class DatabaseHelper {
                 return null;
             }
         } catch (SQLException e) {
-            logger.log(Level.SEVERE, "Select version failed", e);
             return null;
         }
     }

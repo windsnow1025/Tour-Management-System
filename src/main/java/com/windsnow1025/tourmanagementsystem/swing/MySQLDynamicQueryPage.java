@@ -85,41 +85,52 @@ public class MySQLDynamicQueryPage extends JFrame {
         add(inputPanel, BorderLayout.NORTH);
         add(buttonPanel, BorderLayout.CENTER);
         add(scrollPane, BorderLayout.SOUTH);
-        add(returnButton, BorderLayout.SOUTH);
+        add(resultArea, BorderLayout.SOUTH);
+        //add(returnButton, BorderLayout.SOUTH);
+
     }
 
     private void addRecord() {
         try (Connection connection = MyConnection.getConnection()) {
             StringBuilder queryBuilder = new StringBuilder("INSERT INTO " + tableName + " (");
+
+            // Append column names
             for (int i = 0; i < columnNames.size(); i++) {
                 queryBuilder.append("`").append(columnNames.get(i)).append("`");
                 if (i < columnNames.size() - 1) {
                     queryBuilder.append(", ");
-                } else {
-                    queryBuilder.append(") VALUES (");
                 }
             }
+
+            queryBuilder.append(") VALUES (");
+
+            // Append placeholders for values
             for (int i = 0; i < inputFields.length; i++) {
                 queryBuilder.append("?");
                 if (i < inputFields.length - 1) {
                     queryBuilder.append(", ");
-                } else {
-                    queryBuilder.append(")");
                 }
             }
+
+            queryBuilder.append(")");
+
             try (PreparedStatement statement = connection.prepareStatement(queryBuilder.toString())) {
+                // Set values for placeholders
                 for (int i = 0; i < inputFields.length; i++) {
                     statement.setString(i + 1, inputFields[i].getText());
                 }
+
                 int rowsInserted = statement.executeUpdate();
                 if (rowsInserted > 0) {
-                    resultArea.setText("A new record was inserted successfully!");
+                    resultArea.setText("成功插入新记录！");
                 }
             }
         } catch (SQLException ex) {
-            resultArea.setText("Error: " + ex.getMessage());
+            resultArea.setText("错误：" + ex.getMessage());
         }
     }
+
+
 
     private void deleteRecord() {
         int id = Integer.parseInt(JOptionPane.showInputDialog("Enter ID to delete:"));

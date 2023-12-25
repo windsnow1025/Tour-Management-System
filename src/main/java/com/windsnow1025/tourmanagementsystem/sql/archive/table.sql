@@ -55,10 +55,8 @@ CREATE TABLE 导游员工
 CREATE TABLE 顾客
 (
     身份证号  VARCHAR(255) NOT NULL,
-    旅游团_id INT          NOT NULL,
     PRIMARY KEY (身份证号),
-    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON UPDATE CASCADE,
-    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id) ON DELETE CASCADE
+    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON UPDATE CASCADE
 );
 
 CREATE TABLE 旅游线路

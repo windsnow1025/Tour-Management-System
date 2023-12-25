@@ -77,10 +77,8 @@ public class JDBCHelper extends DatabaseHelper {
                 CREATE TABLE IF NOT EXISTS 顾客
                 (
                     身份证号 VARCHAR(255) NOT NULL,
-                    旅游团_id INT NOT NULL,
                     PRIMARY KEY (身份证号),
-                    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON UPDATE CASCADE,
-                    FOREIGN KEY (旅游团_id) REFERENCES 旅游团 (id) ON DELETE CASCADE
+                    FOREIGN KEY (身份证号) REFERENCES 身份信息 (身份证号) ON UPDATE CASCADE
                 );
             """;
 
@@ -177,7 +175,7 @@ public class JDBCHelper extends DatabaseHelper {
             dbUsername = jsonObject.getString("database_username");
             dbPassword = jsonObject.getString("database_password");
             dbDriverClassName = "com.mysql.cj.jdbc.Driver";
-            dbVersion = "1.3.11";
+            dbVersion = "1.4.0";
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Database config failed", e);
         }

@@ -73,7 +73,7 @@ CREATE TABLE 地点
     地点        VARCHAR(255) NOT NULL,
     旅游线路_id INT,
     PRIMARY KEY (地点, 旅游线路_id),
-    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE SET NULL
+    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE CASCADE
 );
 
 CREATE TABLE 景点
@@ -81,7 +81,7 @@ CREATE TABLE 景点
     景点        VARCHAR(255) NOT NULL,
     旅游线路_id INT,
     PRIMARY KEY (景点, 旅游线路_id),
-    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE SET NULL
+    FOREIGN KEY (旅游线路_id) REFERENCES 旅游线路 (id) ON DELETE CASCADE
 );
 
 CREATE TABLE 旅游时间段
